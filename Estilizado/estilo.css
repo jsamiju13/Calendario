@@ -8,6 +8,7 @@
 }
 
 nav ul{
+    margin-left: -15%;
     list-style: none;
 }
 nav ul li{
@@ -15,6 +16,7 @@ nav ul li{
 }
 
 nav ul li ul{
+    margin-left: -15%;
     display: none;
     position: absolute;
 }
