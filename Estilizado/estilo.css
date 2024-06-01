@@ -1,0 +1,24 @@
+.General{
+    width: 1399px;
+    height: 759px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    position: relative;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+  }

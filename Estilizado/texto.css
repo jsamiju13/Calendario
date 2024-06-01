@@ -1,0 +1,41 @@
+.semana_plan{
+    display: flex;
+  justify-content: space-between;
+}
+
+#titulo{
+    font-size: 0.5cm;
+    margin-top: -1%;
+    margin-left: -15%;
+    background-color: none;
+    padding: 0,5%;  
+    align-self: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#semana{
+    font-size: 15px;
+    align-self: flex-start;
+    padding: 0,5%;
+    margin-left: 5%;
+    background-color: none;
+}
+
+h3{
+    color: blueviolet;
+}
+
+h4{
+    text-decoration: underline;
+    color: aqua;
+}
+
+p{
+    text-align: justify; 
+    color: antiquewhite;   
+}
+
+span{
+    color: blueviolet;
+}
