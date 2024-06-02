@@ -4,7 +4,7 @@
 }
 
 #titulo{
-    font-size: 0.5cm;
+    font-size: 125%;
     margin-top: -1%;
     margin-left: -12%;
     background-color: none;
@@ -15,7 +15,7 @@
 }
 
 #semana{
-    font-size: 15px;
+    font-size: 100%;
     align-self: flex-start;
     padding: 0,5%;
     margin-left: 5%;
@@ -41,58 +41,58 @@ span{
 }
 
 #caja_info_organizacion_metodos{
-    top: 280px;
-    left: 15px;
+    top: 1550%;
+    left: 6%;
     position: absolute;
     z-index: 100;
 
 }
 
 #caja_info_lenguaje_programacion_martes{
-    top: 240px;
-    left: 15px;
+    top: 1335%;
+    left: 6%;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_ingles{
-    top: 280px;
-    left: -400px;
+    top: 1550%;
+    left: -160.5%;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_sistemas_informacion{
-    top: 240px;
-    left: -400px;
+    top: 1335%;
+    left: -160.5%;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_actividades_complementarias_tecnologia{
-    top: 201px;
-    left: -400px;
+    top: 558%;
+    left: -160.5%;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_lenguaje_programacion_jueves{
-    top: 280px;
-    left: -815px;
+    top: 1550%;
+    left: -326.5%;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_matematica{
-    top: 240px;
-    left: -815px;
+    top: 1335%;
+    left: -326.5%;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_estructura_datos{
-    top: -20px;
-    left: -400px;
+    top: -130%;
+    left: -160.5%;
     position: absolute;
     z-index: 100;
 }
