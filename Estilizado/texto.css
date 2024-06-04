@@ -26,16 +26,19 @@
 
 h3{
     color: blueviolet;
+    font-size: 1.4vw;
 }
 
 h4{
     text-decoration: underline;
     color: aqua;
+    font-size: 1vw;
 }
 
 p{
     text-align: justify; 
-    color: antiquewhite;   
+    color: antiquewhite;  
+    font-size: 1vw; 
 }
 
 span{
@@ -43,58 +46,58 @@ span{
 }
 
 #caja_info_organizacion_metodos{
-    top: 1550%;
-    left: 6%;
+    top: 20vw;
+    left: 0.1vw;
     position: absolute;
     z-index: 100;
 
 }
 
 #caja_info_lenguaje_programacion_martes{
-    top: 1335%;
-    left: 6%;
+    top: 17.5vw;
+    left: 0.1vw;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_ingles{
-    top: 1550%;
-    left: -160.5%;
+    top: 20vw;
+    left: -29.5vw;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_sistemas_informacion{
-    top: 1335%;
-    left: -160.5%;
+    top: 17.5vw;
+    left: -29.5vw;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_actividades_complementarias_tecnologia{
-    top: 558%;
-    left: -160.5%;
+    top: 15vw;
+    left: -29.5vw;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_lenguaje_programacion_jueves{
-    top: 1550%;
-    left: -326.5%;
+    top: 20vw;
+    left: -58.5vw;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_matematica{
-    top: 1335%;
-    left: -326.5%;
+    top: 17.5vw;
+    left: -58.5vw;
     position: absolute;
     z-index: 100;
 }
 
 #caja_info_estructura_datos{
-    top: -130%;
-    left: -160.5%;
+    top: -1.5vw;
+    left: -29.5vw;
     position: absolute;
     z-index: 100;
 }
