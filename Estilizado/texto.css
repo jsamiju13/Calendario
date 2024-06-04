@@ -4,7 +4,9 @@
 }
 
 #titulo{
-    font-size: 125%;
+    width: -50%;
+    height: -50%;
+    font-size: 1.5vw;
     margin-top: -1%;
     margin-left: -12%;
     background-color: none;
@@ -15,7 +17,7 @@
 }
 
 #semana{
-    font-size: 100%;
+    font-size: 2vh;
     align-self: flex-start;
     padding: 0,5%;
     margin-left: 5%;
