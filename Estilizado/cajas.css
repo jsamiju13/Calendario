@@ -9,10 +9,10 @@
 #martes{
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 3%;
-    left: 5.7%;
-    width: 20%;
-    height: 45.2%;
+    top: 15px;
+    left: 70px;
+    width: 18vw;
+    height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -53,10 +53,10 @@
 #info{
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 53%;
-    left: 5.7%;
-    width: 20%;
-    height: 45.2%;
+    top: 320px;
+    left: 70px;
+    width: 18vw;
+    height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
 }
