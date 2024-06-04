@@ -20,10 +20,10 @@
 #miercoles{
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 3%;
-    left: 38.5%;
-    width: 20%;
-    height: 45.2%;
+    top: 15px;
+    left: 490px;
+    width: 18vw;
+    height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -31,10 +31,10 @@
 #jueves{
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 3%;
-    left: 71.5%;
-    width: 20%;
-    height: 45.2%;
+    top: 15px;
+    left: 911px;
+    width: 18vw;
+    height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -42,10 +42,10 @@
 #viernes{
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 53%;
-    left: 38.5%;
-    width: 20%;
-    height: 45.2%;
+    top: 320px;
+    left: 490px;
+    width: 18vw;
+    height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
 }
