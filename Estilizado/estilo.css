@@ -22,7 +22,13 @@ nav ul li ul{
     position: absolute;
 }
 
-nav ul li:hover ul {
+nav ul li #caja_info_Información{
     
+    margin-left: -15%;
     display: block;
+    position: absolute;
 }
+
+
+
+
