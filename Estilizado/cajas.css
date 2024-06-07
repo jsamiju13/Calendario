@@ -60,3 +60,60 @@
     padding-left: 1%;
     padding-right: 1%;
 }
+
+.caja_info_organizacion_metodos{
+    top: 20vw;
+    left: 0.1vw;
+    position: absolute;
+    z-index: 100;
+
+}
+
+.caja_info_lenguaje_programacion_martes{
+    top: 17.5vw;
+    left: 0.1vw;
+    position: absolute;
+    z-index: 100;
+}
+
+.caja_info_ingles{
+    top: 20vw;
+    left: -29.5vw;
+    position: absolute;
+    z-index: 100;
+}
+
+.caja_info_sistemas_informacion{
+    top: 17.5vw;
+    left: -29.5vw;
+    position: absolute;
+    z-index: 100;
+}
+
+.caja_info_actividades_complementarias_tecnologia{
+    top: 15vw;
+    left: -29.5vw;
+    position: absolute;
+    z-index: 100;
+}
+
+.caja_info_lenguaje_programacion_jueves{
+    top: 20vw;
+    left: -58.5vw;
+    position: absolute;
+    z-index: 100;
+}
+
+.caja_info_matematica{
+    top: 17.5vw;
+    left: -58.5vw;
+    position: absolute;
+    z-index: 100;
+}
+
+.caja_info_estructura_datos{
+    top: -1.5vw;
+    left: -29.5vw;
+    position: absolute;
+    z-index: 100;
+}
