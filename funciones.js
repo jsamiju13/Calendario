@@ -36,73 +36,55 @@ var give_elements_original = give_info_Información.innerHTML;
 
 
 
-launcher_organizacion_metodos.addEventListener("mouseover",function(){
+launcher_organizacion_metodos.addEventListener("click",function(){
   give_info_Información.innerHTML = take_info_organizacion_metodos.innerHTML
 });
 
-launcher_organizacion_metodos.addEventListener("mouseout",function(){
-  give_info_Información.innerHTML = give_elements_original
-});
 
-launcher_lenguaje_programacion_martes.addEventListener("mouseover",function(){
+
+launcher_lenguaje_programacion_martes.addEventListener("click",function(){
   give_info_Información.innerHTML = take_info_lenguaje_programacion_martes.innerHTML
 });
 
-launcher_lenguaje_programacion_martes.addEventListener("mouseout",function(){
-  give_info_Información.innerHTML = give_elements_original
-});
 
 
-launcher_ingles.addEventListener("mouseover",function(){
+
+launcher_ingles.addEventListener("click",function(){
   give_info_Información.innerHTML = take_info_ingles.innerHTML
 });
 
-launcher_ingles.addEventListener("mouseout",function(){
-  give_info_Información.innerHTML = give_elements_original
-});
 
 
-launcher_sistemas_informacion.addEventListener("mouseover",function(){
+
+launcher_sistemas_informacion.addEventListener("click",function(){
   give_info_Información.innerHTML = take_info_sistemas_informacion.innerHTML
 });
 
-launcher_sistemas_informacion.addEventListener("mouseout",function(){
-  give_info_Información.innerHTML = give_elements_original
-});
 
 
-launcher_actividades_complementarias_tecnologia.addEventListener("mouseover",function(){
+
+launcher_actividades_complementarias_tecnologia.addEventListener("click",function(){
   give_info_Información.innerHTML = take_info_actividades_complementarias_tecnologia.innerHTML
 });
 
-launcher_actividades_complementarias_tecnologia.addEventListener("mouseout",function(){
-  give_info_Información.innerHTML = give_elements_original
-});
 
 
-launcher_lenguaje_programacion_jueves.addEventListener("mouseover",function(){
+launcher_lenguaje_programacion_jueves.addEventListener("click",function(){
   give_info_Información.innerHTML = take_info_lenguaje_programacion_jueves.innerHTML
 });
 
-launcher_lenguaje_programacion_jueves.addEventListener("mouseout",function(){
-  give_info_Información.innerHTML = give_elements_original
-});
 
 
-launcher_matematica.addEventListener("mouseover",function(){
+
+launcher_matematica.addEventListener("click",function(){
   give_info_Información.innerHTML = take_info_matematica.innerHTML
 });
 
-launcher_matematica.addEventListener("mouseout",function(){
-  give_info_Información.innerHTML = give_elements_original
-});
 
 
-launcher_estructura_datos.addEventListener("mouseover",function(){
+
+launcher_estructura_datos.addEventListener("click",function(){
   give_info_Información.innerHTML = take_info_estructura_datos.innerHTML
 });
 
-launcher_estructura_datos.addEventListener("mouseout",function(){
-  give_info_Información.innerHTML = give_elements_original
-});
 
