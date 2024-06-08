@@ -6,43 +6,53 @@
 #titulo{
     width: -50%;
     height: -50%;
-    font-size: 1.5vw;
-    margin-top: -1%;
+    font-size: 2vw;
+    font-family: 'Lovelo', sans-serif;
+    margin-top: -2%;
     margin-left: -12%;
+    margin-bottom: -3%;
     background-color: none;
     padding: 0,5%;  
     align-self: center;
     flex-grow: 1;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 #semana{
     font-size: 1.2vw;
+    font-family: "Montserrat-Classic", sans-serif;
     align-self: flex-start;
     padding: 0,5%;
     margin-left: 5%;
     background-color: none;
+    color: rgb(255, 255, 255);
 }
 
 h3{
-    color: blueviolet;
+    color: rgb(0, 74, 173);
     font-size: 1.4vw;
+    font-family: "Montserrat-Classic", sans-serif;
+    font-weight: bold;
 }
 
 h4{
     text-decoration: underline;
     color: aqua;
     font-size: 1vw;
+    font-family: "Montserrat-Classic", sans-serif;
 }
 
 p{
-    text-align: justify; 
+    text-align: left; 
     color: antiquewhite;  
     font-size: 1vw; 
+    font-family: "Montserrat-Classic", sans-serif;
+    font-weight: bold;
 }
 
 span{
-    color: blueviolet;
+    color: rgb(0, 74, 173);
 }
 
 .caja_info_Información{

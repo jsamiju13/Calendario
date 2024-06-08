@@ -15,6 +15,10 @@
     height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
+
+    border-radius: 10%;
+    border-style: solid;
+    border-color: blanchedalmond;
 }
 
 #miercoles{
