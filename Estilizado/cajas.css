@@ -18,7 +18,7 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: blanchedalmond;
+    border-color: rgb(56, 182, 255);
 }
 
 #miercoles{
@@ -30,6 +30,10 @@
     height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
+
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(56, 182, 255);
 }
 
 #jueves{
@@ -41,6 +45,10 @@
     height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
+
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(56, 182, 255);
 }
 
 #viernes{
@@ -52,6 +60,11 @@
     height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
+
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(56, 182, 255);
+    
 }
 
 #info{
@@ -63,6 +76,10 @@
     height: 19.8vw;
     padding-left: 1%;
     padding-right: 1%;
+
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(56, 182, 255);
 }
 
 .caja_info_organizacion_metodos{
@@ -121,3 +138,11 @@
     position: absolute;
     z-index: 100;
 }
+
+.caja_info_Información{
+
+    margin-left: -10%;
+    display: none;
+    transition: 1s ease;
+}
+

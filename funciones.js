@@ -33,16 +33,20 @@ var take_info_estructura_datos = document.querySelector(".caja_info_estructura_d
 var give_info_Información = document.querySelector(".caja_info_Información");
 var give_elements_original = give_info_Información.innerHTML;
 
+var boton_click = document.querySelector("#sonido_boton");
 
 
 
 launcher_organizacion_metodos.addEventListener("click",function(){
+  boton_click.play();
   give_info_Información.innerHTML = take_info_organizacion_metodos.innerHTML
+  give_info_Información.style.display = "block";
 });
 
 
 
 launcher_lenguaje_programacion_martes.addEventListener("click",function(){
+  boton_click.play();
   give_info_Información.innerHTML = take_info_lenguaje_programacion_martes.innerHTML
 });
 
@@ -50,6 +54,7 @@ launcher_lenguaje_programacion_martes.addEventListener("click",function(){
 
 
 launcher_ingles.addEventListener("click",function(){
+  boton_click.play();
   give_info_Información.innerHTML = take_info_ingles.innerHTML
 });
 
@@ -57,6 +62,7 @@ launcher_ingles.addEventListener("click",function(){
 
 
 launcher_sistemas_informacion.addEventListener("click",function(){
+  boton_click.play();
   give_info_Información.innerHTML = take_info_sistemas_informacion.innerHTML
 });
 
@@ -64,12 +70,14 @@ launcher_sistemas_informacion.addEventListener("click",function(){
 
 
 launcher_actividades_complementarias_tecnologia.addEventListener("click",function(){
+  boton_click.play();
   give_info_Información.innerHTML = take_info_actividades_complementarias_tecnologia.innerHTML
 });
 
 
 
 launcher_lenguaje_programacion_jueves.addEventListener("click",function(){
+  boton_click.play();
   give_info_Información.innerHTML = take_info_lenguaje_programacion_jueves.innerHTML
 });
 
@@ -77,6 +85,7 @@ launcher_lenguaje_programacion_jueves.addEventListener("click",function(){
 
 
 launcher_matematica.addEventListener("click",function(){
+  boton_click.play();
   give_info_Información.innerHTML = take_info_matematica.innerHTML
 });
 
@@ -84,6 +93,7 @@ launcher_matematica.addEventListener("click",function(){
 
 
 launcher_estructura_datos.addEventListener("click",function(){
+  boton_click.play();
   give_info_Información.innerHTML = take_info_estructura_datos.innerHTML
 });
 

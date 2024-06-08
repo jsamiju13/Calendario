@@ -29,6 +29,12 @@
     color: rgb(255, 255, 255);
 }
 
+hr{
+    border-style: solid;
+    border-top-color: rgb(255, 255, 255);
+
+}
+
 h3{
     color: rgb(0, 74, 173);
     font-size: 1.4vw;
@@ -38,9 +44,10 @@ h3{
 
 h4{
     text-decoration: underline;
-    color: aqua;
+    color: rgb(56, 182, 255);
     font-size: 1vw;
     font-family: "Montserrat-Classic", sans-serif;
+    text-decoration: none;
 }
 
 p{
@@ -55,7 +62,3 @@ span{
     color: rgb(0, 74, 173);
 }
 
-.caja_info_Información{
-
-    margin-left: -10%;
-}
