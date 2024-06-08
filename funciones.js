@@ -35,12 +35,16 @@ var give_elements_original = give_info_Información.innerHTML;
 
 var boton_click = document.querySelector("#sonido_boton");
 
-
+document.addEventListener('DOMContentLoaded', function() {
+  var div = document.getElementById('estrella_1');
+  div.addEventListener('click', function() {
+    alert('Agradecimientos especiales: \n Juan Lago');
+  });
+});
 
 launcher_organizacion_metodos.addEventListener("click",function(){
   boton_click.play();
   give_info_Información.innerHTML = take_info_organizacion_metodos.innerHTML
-  give_info_Información.style.display = "block";
 });
 
 

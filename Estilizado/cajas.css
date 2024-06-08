@@ -142,7 +142,5 @@
 .caja_info_Información{
 
     margin-left: -10%;
-    display: none;
-    transition: 1s ease;
+    transition: opacity 1s ease;
 }
-
