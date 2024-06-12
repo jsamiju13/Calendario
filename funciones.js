@@ -52,6 +52,11 @@ launcher_organizacion_metodos.addEventListener("click",function(){
 launcher_lenguaje_programacion_martes.addEventListener("click",function(){
   boton_click.play();
   give_info_Información.innerHTML = take_info_lenguaje_programacion_martes.innerHTML
+  Swal.fire({
+    title: "The Internet?",
+    text: "That thing is still around?",
+    icon: "question"
+  });
 });
 
 
