@@ -16,7 +16,7 @@
     align-self: center;
     flex-grow: 1;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #semana{
@@ -26,17 +26,17 @@
     padding: 0,5%;
     margin-left: 5%;
     background-color: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 hr{
     border-style: solid;
-    border-top-color: rgb(255, 255, 255);
+    border-top-color: rgb(0, 0, 0);
 
 }
 
 h3{
-    color: rgb(0, 74, 173);
+    color: rgb(0, 153, 107);
     font-size: 1.4vw;
     font-family: "Montserrat-Classic", sans-serif;
     font-weight: bold;
@@ -44,21 +44,25 @@ h3{
 
 h4{
     text-decoration: underline;
-    color: rgb(56, 182, 255);
+    color: rgb(0, 51, 53);
     font-size: 1vw;
     font-family: "Montserrat-Classic", sans-serif;
     text-decoration: none;
 }
 
+button h4:hover{
+    color: rgb(0, 153, 107);
+}
+
 p{
     text-align: left; 
-    color: antiquewhite;  
+    color: rgb(0, 0, 0);  
     font-size: 1vw; 
     font-family: "Montserrat-Classic", sans-serif;
     font-weight: bold;
 }
 
 span{
-    color: rgb(0, 74, 173);
+    color: rgb(0, 153, 107);
 }
 

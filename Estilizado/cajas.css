@@ -7,7 +7,7 @@
 }
 
 #martes{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(227, 250, 227);
     position: absolute;
     top: 15px;
     left: 70px;
@@ -18,11 +18,11 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(56, 182, 255);
+    border-color: rgb(0, 51, 53);
 }
 
 #miercoles{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(227, 250, 227);
     position: absolute;
     top: 15px;
     left: 490px;
@@ -33,11 +33,11 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(56, 182, 255);
+    border-color: rgb(0, 51, 53);
 }
 
 #jueves{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(227, 250, 227);
     position: absolute;
     top: 15px;
     left: 911px;
@@ -48,11 +48,11 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(56, 182, 255);
+    border-color: rgb(0, 51, 53);
 }
 
 #viernes{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(227, 250, 227);
     position: absolute;
     top: 320px;
     left: 490px;
@@ -63,12 +63,12 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(56, 182, 255);
+    border-color: rgb(0, 51, 53);
     
 }
 
 #info{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(227, 250, 227);
     position: absolute;
     top: 320px;
     left: 70px;
@@ -79,7 +79,7 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(56, 182, 255);
+    border-color: rgb(0, 51, 53);
 }
 
 .caja_info_organizacion_metodos{
