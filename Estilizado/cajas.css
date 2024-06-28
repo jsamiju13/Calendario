@@ -86,7 +86,7 @@
         top: 5%;
         left: 4%;
         width: 40%;
-        height: 30%;
+        height: 35%;
         padding-left: 1%;
         padding-right: 1%;
     
@@ -101,7 +101,7 @@
         top: 5%;
         left: 52%;
         width: 40%;
-        height: 30%;
+        height: 35%;
         padding-left: 1%;
         padding-right: 1%;
 
@@ -113,10 +113,10 @@
     #jueves{
         background-color: #30043d;
         position: absolute;
-        top: 38%;
+        top: 43%;
         left: 4%;
         width: 40%;
-        height: 30%;
+        height: 35%;
         padding-left: 1%;
         padding-right: 1%;
 
@@ -128,10 +128,10 @@
     #viernes{
         background-color: #30043d;
         position: absolute;
-        top: 38%;
+        top: 43%;
         left: 52%;
         width: 40%;
-        height: 30%;
+        height: 35%;
         padding-left: 1%;
         padding-right: 1%;
 
