@@ -76,7 +76,7 @@
         top: 20%;
         left: -5vw;
         width: 100%;
-        height: 100%;
+        height: 80%;
         margin-left: 5%;
     }
     
@@ -86,11 +86,10 @@
         top: 4%;
         left: 4%;
         width: 40%;
-        height: 22%;
+        height: 25%;
         padding-left: 1%;
         padding-right: 1%;
     
-        border-width: thick;
         border-radius: 10%;
         border-style: solid;
         border-color: #b8013e;
@@ -102,11 +101,10 @@
         top: 4%;
         left: 52%;
         width: 40%;
-        height: 22%;
+        height: 25%;
         padding-left: 1%;
         padding-right: 1%;
-    
-        border-width: thick;
+
         border-radius: 10%;
         border-style: solid;
         border-color: #b8013e;
@@ -115,14 +113,13 @@
     #jueves{
         background-color: #30043d;
         position: absolute;
-        top: 28%;
+        top: 31%;
         left: 4%;
         width: 40%;
-        height: 22%;
+        height: 25%;
         padding-left: 1%;
         padding-right: 1%;
-    
-        border-width: thick;
+
         border-radius: 10%;
         border-style: solid;
         border-color: #b8013e;
@@ -131,14 +128,13 @@
     #viernes{
         background-color: #30043d;
         position: absolute;
-        top: 28%;
+        top: 31%;
         left: 52%;
         width: 40%;
-        height: 22%;
+        height: 25%;
         padding-left: 1%;
         padding-right: 1%;
-    
-        border-width: thick;
+
         border-radius: 10%;
         border-style: solid;
         border-color: #b8013e;
