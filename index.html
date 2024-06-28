@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="Estilizado/cajas.css">
     <link rel="stylesheet" href="Estilizado/assets.css">
     <link rel="stylesheet" href="funciones.js">
+    <link rel="stylesheet" href="Paquetes/node_modules/sweetalert2/dist/sweetalert2.min.css">
+
     <link rel="icon" type="image/png" href="Estilizado/assets/logo bbb.png">
-    <audio src="Sonidos/sonido_boton_click.mp3" id="sonido_boton"></audio>
+
     <audio src="Sonidos/sonido_fondo_operagx.mp3" autoplay loop></audio>
+    <audio src="Sonidos/sonido_boton_click.mp3" id="sonido_boton"></audio>
+
 <body>
     <div class="General">
         <div class="semana_plan">
@@ -25,127 +29,83 @@
                 
                 <center><h3>Martes</h3></center>    
                 <hr>
-                    <ul>
+                    
                         <li><button id="launcher_organizacion_metodos"><center><h4>Organización y Métodos</h4></center></button>
                             <ul  class="caja_info_organizacion_metodos">
-                                    <li><p><span>Evaluación: </span> <span></span> Trabajo y Exámen</p></li>
-                                    <li><p><span>Tema:       </span> casos de uso</p></li>
-                                    <li><p><span>Valor:      </span> 10% y 20%</p></li>
-                                    <li><p><span>Grupo:      </span> Individual y/o pareja</p></li>
-                                    <li><p><span>Nota:       </span> </p></li>
-                            </ul>
-                        </li>
-                        <br>
-                        <br>
-                        <li><button id="launcher_lenguaje_programacion_martes"><center><h4>Lenguaje de Programación I</h4></center></button>
-                            <ul class="caja_info_lenguaje_programacion_martes">
-                                <li><p><span>Evaluación: </span> <span>No</span> hay evaluación</p></li>
-                                <li><p><span>Tema:       </span> </p></li>
-                                <li><p><span>Valor:      </span> </p></li>
-                                <li><p><span>Grupo:      </span> </p></li>
-                                <li><p><span>Nota:       </span> </p></li>
+                                    <p>Organización y métodos</p>
                             </ul>
                         </li>
                         
-                    </ul>
+                        <li><button id="launcher_lenguaje_programacion_martes"><center><h4>Lenguaje de Programación I</h4></center></button>
+                            <ul class="caja_info_lenguaje_programacion_martes">
+                                <p>Lenguaje de programación I</p>
+                            </ul>
+                        </li>
+                        
+                    
                     
             </div>
             <div id="miercoles">
                 <center><h3>Miércoles</h3></center>
                 <hr>
-                    <ul>
+                    
                         <li><button id="launcher_ingles"><center><h4>Inglés</h4></center></button>
                             <ul class="caja_info_ingles">
-                                <li><p><span>Evaluación: </span> <span></span> Actividad Dinámica</p></li>
-                                <li><p><span>Tema:       </span> Condicionales</p></li>
-                                <li><p><span>Valor:      </span> 15%</p></li>
-                                <li><p><span>Grupo:      </span> trío</p></li>
-                                <li><p><span>Nota:       </span> llevense un globo por equipo para la actividad</p></li>
+                                <p>Inglés</p>
                             </ul>
                         </li>
-                        <br>
+                        
                         <li><button id="launcher_sistemas_informacion"><center><h4>Sistemas de información</h4></center></button>
                             <ul class="caja_info_sistemas_informacion">
-                                <li><p><span>Evaluación: </span> <span>No</span> hay evaluación</p></li>
-                                <li><p><span>Tema:       </span> </p></li>
-                                <li><p><span>Valor:      </span> </p></li>
-                                <li><p><span>Grupo:      </span> </p></li>
-                                <li><p><span>Nota:       </span> </p></li>
+                                <p>Sistemas de información</p>
                             </ul>
                         </li>
-                        <br>
+                        
                         <li><button id="launcher_actividades_complementarias_tecnologia"><center><h4>Actividades complementarias para tecnología</h4></center></button>
                             <ul class="caja_info_actividades_complementarias_tecnologia">
-                                <li><p><span>Evaluación: </span> <span>No</span> hay evaluación</p></li>
-                                <li><p><span>Tema:       </span> </p></li>
-                                <li><p><span>Valor:      </span> </p></li>
-                                <li><p><span>Grupo:      </span> </p></li>
-                                <li><p><span>Nota:       </span> </p></li>
+                                <p>Actividades complementarias para tecnología</p>
                             </ul>
                         </li>
-                    </ul>
+                    
 
             </div>
             <div id="jueves">
                 <center><h3>Jueves</h3></center>
                 <hr>
                 
-                    <ul>
+                    
                         <li> <button id="launcher_lenguaje_programacion_jueves"><center><h4>Lenguaje de Programación I</h4></center></button>
                             <ul class="caja_info_lenguaje_programacion_jueves">
-                                <li><p><span>Evaluación: </span> <span>No</span> hay evaluación</p></li>
-                                <li><p><span>Tema:       </span> </p></li>
-                                <li><p><span>Valor:      </span> </p></li>
-                                <li><p><span>Grupo:      </span> </p></li>
-                                <li><p><span>Nota:       </span> </p></li>
-                            </ul>
-                        </li>
-                        <br>
-                        <li><button id="launcher_matematica"><center><h4>Matemática II</h4></center></button>
-                            <ul class="caja_info_matematica">
-                                <li><p><span>Evaluación: </span> <span>No</span> hay evaluación</p></li>
-                                <li><p><span>Tema:       </span> </p></li>
-                                <li><p><span>Valor:      </span> </p></li>
-                                <li><p><span>Grupo:      </span> </p></li>
-                                <li><p><span>Nota:       </span> </p></li>
+                                <p>Lenguaje de programación I</p>
                             </ul>
                         </li>
                         
-                    </ul>
+                        <li><button id="launcher_matematica"><center><h4>Matemática II</h4></center></button>
+                            <ul class="caja_info_matematica">
+                                <p>Matemática</p>
+                            </ul>
+                        </li>
+                        
+                    
 
             </div>
             <div id="viernes">
                 <center><h3>Viernes</h3></center>
                 <hr>
                 
-                    <ul>
+                    
                         <li><button id="launcher_estructura_datos"><center><h4>Estructura de Datos</h4></center></button>
                             <ul class="caja_info_estructura_datos">
-                                <li><p><span>Evaluación: </span> <span>No</span> hay evaluación</p></li>
-                                <li><p><span>Tema:       </span> </p></li>
-                                <li><p><span>Valor:      </span> </p></li>
-                                <li><p><span>Grupo:      </span> </p></li>
-                                <li><p><span>Nota:       </span> </p></li>
+                                <p>Estructura De Datos</p>
                             </ul>
                         </li>
-                    </ul>
+                    
                      
             </div>
 
-            <div id="info">
-                <center><h3>Información</h3></center>
-                <hr>
-                <ul class="caja_info_Información">
-                    <li><p> </p> </li>
-                    <li><p> </p> </li>
-                    <li><p> </p> </li>
-                    <li><p> </p> </li>
-                    <li><p> </p> </li>
-                </ul>
-            </div>
-            <script src="funciones.js"></script>
-
-            <div id="estrella_1"></div>
+              
+            <script src="Paquetes/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+            <script src="funciones.js"></script>  
     </div>
 </body>
 </html>

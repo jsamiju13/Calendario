@@ -1,44 +1,94 @@
+
 .General{
+    display: absolute;
     width: 100%;
-    height: 120%;
-    background-image: linear-gradient(to bottom, rgb(97, 255, 137), rgb(227, 250, 227));
+    height: 100%;
+    background-image: linear-gradient(to bottom, #30043d, #b8013e);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0vw;
+    left: 0vw;
 
 }
 
-ul li button{
-    margin-left: -13%;
-    background-color: rgb(227, 250, 227);
-    width: 230px;
-    height: 50px;
+li button{
+    
+    background-color: #30043d;
+    width: 100%;
+    
+    left: 50%;
     cursor: pointer;
-
-    border-color: rgb(0, 153, 107);
+    border: 1%;
+    border-color: #e54059;
     border-style: solid;
     border-radius: 15px;
+    margin-bottom: 5%;
+    
 }
+
+
 
 button:active{
-    border-color: rgb(44, 44, 44);
+
+    border-color: #30043d;
 }
 
-ul li button h4{
+ li button h4{
     
     position: relative;
-    top: -6px;
+    top: 0;
+    background-color: none;
+    
 }
 
-ul li #launcher_actividades_complementarias_tecnologia h4{
-
-    position: relative;
-    top: -12px;
+li{
+    list-style-type: none;
 }
 
-ul li ul{
+ul{
+    list-style-type: none;
+}
+
+li ul{
     display: none;
     position: absolute;
+    list-style-type: none;
+}
+
+.swal2-title {
+
+    color: #fdb36a;
+    font-family: 'Lovelo', sans-serif;
+}
+
+#swal2-html-container{
+
+    color: aliceblue;
+    font-family: 'Lovelo', sans-serif;
+}
+
+.swal2-confirm.swal2-styled{
+
+    background-color: #30043d;
+    font-family: 'Lovelo', sans-serif;
+}
+
+.swal2-actions.button{
+
+    content: "Hola";
+
+}
+
+.swal2-popup.swal2-modal.swal2-icon-info.swal2-show{
+
+    border-style: solid;
+    border-color: #b8013e;
+    background-image: linear-gradient(to bottom, #30043d, #b8013e);
+}
+
+.swal2-icon.swal2-info.swal2-icon-show{
+
+    color: #fdb36a;
+    border-color: #fdb36a;
 }
 
 @font-face {

@@ -1,22 +1,20 @@
 .semana_plan{
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
+    background-color: none;
+    width: 100%;
+    height: 25%;
 }
 
 #titulo{
-    width: -50%;
-    height: -50%;
     font-size: 2vw;
+    top: 0;
+    left: 41.5%;
     font-family: 'Lovelo', sans-serif;
-    margin-top: -2%;
-    margin-left: -13%;
-    margin-bottom: -3%;
     background-color: none;
-    padding: 0,5%;  
-    align-self: center;
     flex-grow: 1;
-    text-align: center;
-    color: rgb(0, 0, 0);
+    color: #fdb36a;
+    position: absolute;
 }
 
 #semana{
@@ -26,17 +24,17 @@
     padding: 0,5%;
     margin-left: 5%;
     background-color: none;
-    color: rgb(0, 0, 0);
+    color: #fdb36a;
 }
 
 hr{
     border-style: solid;
-    border-top-color: rgb(0, 0, 0);
+    border-top-color: #e54059;
 
 }
 
 h3{
-    color: rgb(0, 153, 107);
+    color: #fdb36a;
     font-size: 1.4vw;
     font-family: "Montserrat-Classic", sans-serif;
     font-weight: bold;
@@ -44,14 +42,16 @@ h3{
 
 h4{
     text-decoration: underline;
-    color: rgb(0, 51, 53);
-    font-size: 1vw;
+    color: #fdb36a;
+    font-size: 1.2vw;
     font-family: "Montserrat-Classic", sans-serif;
     text-decoration: none;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 button h4:hover{
-    color: rgb(0, 153, 107);
+    color: #e54059;
 }
 
 p{
@@ -63,6 +63,6 @@ p{
 }
 
 span{
-    color: rgb(0, 153, 107);
+    color: #e54059;
 }
 

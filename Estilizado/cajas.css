@@ -1,85 +1,72 @@
 .caja_dias{
     background-color: none;
-    position: absolute;
-    width: 90%;
-    height: 80%;
+    position: fixed;
+    top: 25%;
+    left: -5vw;
+    width: 100%;
+    height: 100%;
     margin-left: 5%;
 }
 
 #martes{
-    background-color: rgb(227, 250, 227);
+    background-color: #30043d;
     position: absolute;
-    top: 15px;
-    left: 70px;
-    width: 18vw;
-    height: 19.8vw;
+    top: 1%;
+    left: 4%;
+    width: 18%;
+    height: 36%;
     padding-left: 1%;
     padding-right: 1%;
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(0, 51, 53);
+    border-color: #b8013e;
 }
 
 #miercoles{
-    background-color: rgb(227, 250, 227);
+    background-color: #30043d;
     position: absolute;
-    top: 15px;
-    left: 490px;
-    width: 18vw;
-    height: 19.8vw;
+    top: 1%;
+    left: 28%;
+    width: 18%;
+    height: 36%;
     padding-left: 1%;
     padding-right: 1%;
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(0, 51, 53);
+    border-color: #b8013e;
 }
 
 #jueves{
-    background-color: rgb(227, 250, 227);
+    background-color: #30043d;
     position: absolute;
-    top: 15px;
-    left: 911px;
-    width: 18vw;
-    height: 19.8vw;
+    top: 1%;
+    left: 52%;
+    width: 18%;
+    height: 36%;
     padding-left: 1%;
     padding-right: 1%;
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(0, 51, 53);
+    border-color: #b8013e;
 }
 
 #viernes{
-    background-color: rgb(227, 250, 227);
+    background-color: #30043d;
     position: absolute;
-    top: 320px;
-    left: 490px;
-    width: 18vw;
-    height: 19.8vw;
+    top: 1%;
+    left: 76%;
+    width: 18%;
+    height: 36%;
     padding-left: 1%;
     padding-right: 1%;
 
     border-radius: 10%;
     border-style: solid;
-    border-color: rgb(0, 51, 53);
+    border-color: #b8013e;
     
-}
-
-#info{
-    background-color: rgb(227, 250, 227);
-    position: absolute;
-    top: 320px;
-    left: 70px;
-    width: 18vw;
-    height: 19.8vw;
-    padding-left: 1%;
-    padding-right: 1%;
-
-    border-radius: 10%;
-    border-style: solid;
-    border-color: rgb(0, 51, 53);
 }
 
 .caja_info_organizacion_metodos{

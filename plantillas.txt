@@ -1,26 +1,11 @@
-<nav>
-                    <ul>
-                        <li><center><h4>Organización y Métodos</h4></center>
-                            <ul>
-                                <li><p><span>Evaluación: </span> INSERTAR TEXTO</p></li>
-                                <li><p><span>Tema:       </span> INSERTAR TEXTO</p></li>
-                                <li><p><span>Valor:      </span> INSERTAR TEXTO</p></li>
-                                <li><p><span>Grupo:      </span> INSERTAR TEXTO</p></li>
-                                <li><p><span>Nota:       </span> INSERTAR TEXTO</p></li>
-                            </ul>
-                        </li>
-                        <li><center><h4>Lenguaje de Programación I</h4></center></li>
-                        
-                    </ul>
-                    
-                </nav>
+colores
 
-<center>
-                            <p>
-                                <span>Evaluación: </span> EXAMEN <br> 
-                                <span>Tema:       </span> ORGANIGRAMAS <br> 
-                                <span>Valor:      </span> 10-20% <br> 
-                                <span>Grupo:      </span> INDIVIDUAL <br>
-                                <span>Nota:       </span> Probablemente tengamos que dibujar <br> <br> <hr>
-                            </p>
-                    </center>
+#30043d
+
+#8e1f51
+
+#e54059
+
+#de837f
+
+#fdb36a
