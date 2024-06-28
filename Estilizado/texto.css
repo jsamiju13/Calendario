@@ -30,6 +30,7 @@
 hr{
     border-style: solid;
     border-top-color: #e54059;
+    border-bottom-color:#e54059;
 
 }
 
@@ -66,3 +67,74 @@ span{
     color: #e54059;
 }
 
+@media (max-width: 599px){
+
+    .semana_plan{
+        display: flex;
+        justify-content: space-between;
+        background-color: none;
+        width: 100%;
+        height: 25%;
+    }
+    
+    #titulo{
+        font-size: 5vw;
+        top: 5%;
+        left: 30%;
+        font-family: 'Lovelo', sans-serif;
+        background-color: none;
+        flex-grow: 1;
+        color: #fdb36a;
+        position: absolute;
+    }
+    
+    #semana{
+        font-size: 3vw;
+        font-family: "Montserrat-Classic", sans-serif;
+        align-self: flex-start;
+        padding: 0,5%;
+        margin-left: 5%;
+        background-color: none;
+        color: #fdb36a;
+    }
+
+    hr{
+        border-style: solid;
+        border-top-color: #e54059;
+        border-bottom-color:#e54059;
+    
+    }
+    
+    h3{
+        color: #fdb36a;
+        font-size: 3.5vw;
+        font-family: "Montserrat-Classic", sans-serif;
+        font-weight: bold;
+    }
+    
+    h4{
+        text-decoration: underline;
+        color: #fdb36a;
+        font-size: 2.5vw;
+        font-family: "Montserrat-Classic", sans-serif;
+        text-decoration: none;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    button h4:hover{
+        color: #e54059;
+    }
+    
+    p{
+        text-align: left; 
+        color: rgb(0, 0, 0);  
+        font-size: 1vw; 
+        font-family: "Montserrat-Classic", sans-serif;
+        font-weight: bold;
+    }
+    
+    span{
+        color: #e54059;
+    }
+}
