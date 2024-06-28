@@ -1,6 +1,6 @@
 .caja_dias{
     background-color: none;
-    position: fixed;
+    position: absolute;
     top: 25%;
     left: -5vw;
     width: 100%;
