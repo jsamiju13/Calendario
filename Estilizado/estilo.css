@@ -66,18 +66,14 @@ li ul{
     font-family: 'Lovelo', sans-serif;
 }
 
+.swal2-icon-content{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
 .swal2-confirm.swal2-styled{
 
     background-color: #30043d;
     font-family: 'Lovelo', sans-serif;
 }
-
-.swal2-actions.button{
-
-    content: "Hola";
-
-}
-
 .swal2-popup.swal2-modal.swal2-icon-info.swal2-show{
 
     border-style: solid;

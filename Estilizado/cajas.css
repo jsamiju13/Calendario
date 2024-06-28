@@ -1,6 +1,6 @@
 .caja_dias{
     background-color: none;
-    position: absolute;
+    position: fixed;
     top: 25%;
     left: -5vw;
     width: 100%;
@@ -11,7 +11,7 @@
 #martes {
     background-color: #30043d;
     position: absolute;
-    top: 1%;
+    top: 5%;
     left: 4%;
     width: 18%;
     height: 40%;
@@ -26,7 +26,7 @@
 #miercoles{
     background-color: #30043d;
     position: absolute;
-    top: 1%;
+    top: 5%;
     left: 28%;
     width: 18%;
     height: 40%;
@@ -68,7 +68,7 @@
     border-color: #b8013e;
     
 }
-@media (max-width: 599px){
+@media (max-width: 500px){
 
     .caja_dias{
         background-color: none;
@@ -79,14 +79,14 @@
         height: 80%;
         margin-left: 5%;
     }
-    /**/
+    
     #martes {
         background-color: #30043d;
         position: absolute;
-        top: 4%;
+        top: 5%;
         left: 4%;
         width: 40%;
-        height: 25%;
+        height: 30%;
         padding-left: 1%;
         padding-right: 1%;
     
@@ -98,10 +98,10 @@
     #miercoles{
         background-color: #30043d;
         position: absolute;
-        top: 4%;
+        top: 5%;
         left: 52%;
         width: 40%;
-        height: 25%;
+        height: 30%;
         padding-left: 1%;
         padding-right: 1%;
 
@@ -113,10 +113,10 @@
     #jueves{
         background-color: #30043d;
         position: absolute;
-        top: 31%;
+        top: 38%;
         left: 4%;
         width: 40%;
-        height: 25%;
+        height: 30%;
         padding-left: 1%;
         padding-right: 1%;
 
@@ -128,10 +128,10 @@
     #viernes{
         background-color: #30043d;
         position: absolute;
-        top: 31%;
+        top: 38%;
         left: 52%;
         width: 40%;
-        height: 25%;
+        height: 30%;
         padding-left: 1%;
         padding-right: 1%;
 
