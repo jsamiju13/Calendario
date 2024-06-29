@@ -13,7 +13,7 @@
     font-family: 'Lovelo', sans-serif;
     background-color: none;
     flex-grow: 1;
-    color: #fdb36a;
+    color: #000000;
     position: absolute;
 }
 
@@ -24,18 +24,18 @@
     padding: 0,5%;
     margin-left: 5%;
     background-color: none;
-    color: #fdb36a;
+    color: #000000;
 }
 
 hr{
     border-style: solid;
-    border-top-color: #e54059;
-    border-bottom-color:#e54059;
+    border-top-color: #ffffff;
+    border-bottom-color:#ffffff;
 
 }
 
 h3{
-    color: aliceblue;
+    color: #ffffff;
     font-size: 2vw;
     font-family: 'Lovelo', sans-serif;
     font-weight: bold;
@@ -45,7 +45,7 @@ h3{
 
 h4{
     text-decoration: underline;
-    color: #fdb36a;
+    color: #000000;
     font-size: 1.2vw;
     font-family: 'Lovelo', sans-serif;
     text-decoration: none;
@@ -54,19 +54,18 @@ h4{
 }
 
 button h4:hover{
-    color: #e54059;
+    color: #000000;
 }
 
 p{
     text-align: left; 
-    color: rgb(0, 0, 0);  
     font-size: 1vw; 
     font-family: 'Lovelo', sans-serif;
     font-weight: bold;
 }
 
 span{
-    color: #e54059;
+    color: #000000;
 }
 
 @media (max-width: 599px){
@@ -86,7 +85,6 @@ span{
         font-family: 'Lovelo', sans-serif;
         background-color: none;
         flex-grow: 1;
-        color: #fdb36a;
         position: absolute;
     }
     
@@ -97,18 +95,9 @@ span{
         padding: 0,5%;
         margin-left: 5%;
         background-color: none;
-        color: #fdb36a;
-    }
-
-    hr{
-        border-style: solid;
-        border-top-color: #e54059;
-        border-bottom-color:#e54059;
-    
     }
     
     h3{
-        color: aliceblue;
         font-size: 3.5vw;
         font-family: 'Lovelo', sans-serif;
         font-weight: bold;
@@ -116,7 +105,6 @@ span{
     
     h4{
         text-decoration: underline;
-        color: #fdb36a;
         font-size: 2.5vw;
         font-family: 'Lovelo', sans-serif;
         text-decoration: none;
@@ -124,19 +112,11 @@ span{
         margin-bottom: 3%;
     }
     
-    button h4:hover{
-        color: #e54059;
-    }
-    
     p{
         text-align: left; 
-        color: rgb(0, 0, 0);  
         font-size: 1vw; 
         font-family: 'Lovelo', sans-serif;
         font-weight: bold;
     }
-    
-    span{
-        color: #e54059;
-    }
+
 }

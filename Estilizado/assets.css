@@ -10,14 +10,14 @@
   }
 
 i{
-  color: aliceblue;
+  color: #000000;
   font-size: 4vw;
   width: 4vw;
   background-color: none;
 }
 
 a{
-  color: #e54059;
+  color: #000000;
   font-size: 2vw;
   width: 2vw;
   background-color: none;
@@ -26,13 +26,13 @@ a{
 @media (max-width: 599px){
 
   i{
-    color: aliceblue;
+    color: #ffffff;
     font-size: 6vw;
     width: 6vw;
   }
   
   a{
-    color: #e54059;
+    color: #ffffff;
     font-size: 3vw;
     width: 3vw;
   }
