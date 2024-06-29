@@ -12,29 +12,25 @@
   
 li button{
     
-    background-color: #30043d;
+    background-color: #ffffff;
     width: 100%;
     
     left: 0%;
     cursor: pointer;
     border: 1%;
-    border-color: #e54059;
+    border-color: #000000;
     border-style: solid;
     border-radius: 15px;
     margin-bottom: 5%;
 
     display: flex;
-    justify-content: center; 
+    justify-content: space-between; 
     align-items: center; 
     position: relative; 
 }
 
 
 
-button:active{
-
-    border-color: #30043d;
-}
 
  li button h4{
     
@@ -42,6 +38,7 @@ button:active{
     top: 0;
     left: 0%;
     background-color: none;
+    
     
 }
 
@@ -61,7 +58,7 @@ li ul{
 
 .swal2-title {
 
-    color: #fdb36a;
+    color: #ffffff;
     font-family: 'Lovelo', sans-serif;
 }
 
@@ -91,6 +88,11 @@ li ul{
     color: #fdb36a;
     border-color: #fdb36a;
     
+}
+
+@media (max-width: 599px){
+ 
+
 }
 
 @font-face {

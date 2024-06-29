@@ -13,10 +13,28 @@ i{
   color: aliceblue;
   font-size: 4vw;
   width: 4vw;
+  background-color: none;
 }
 
 a{
   color: #e54059;
   font-size: 2vw;
   width: 2vw;
+  background-color: none;
+}
+
+@media (max-width: 599px){
+
+  i{
+    color: aliceblue;
+    font-size: 6vw;
+    width: 6vw;
+  }
+  
+  a{
+    color: #e54059;
+    font-size: 3vw;
+    width: 3vw;
+  }
+
 }

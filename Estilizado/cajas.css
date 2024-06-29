@@ -8,8 +8,13 @@
     margin-left: 5%;
 }
 
+.caja_dias .dia{
+    background-color: #000000;
+    border-color: #ffffff;
+}
+
 #martes {
-    background-color: #30043d;
+    
     position: absolute;
     top: 5%;
     left: 4%;
@@ -20,11 +25,9 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: #b8013e;
 }
 
 #miercoles{
-    background-color: #30043d;
     position: absolute;
     top: 5%;
     left: 28%;
@@ -35,11 +38,9 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: #b8013e;
 }
 
 #jueves{
-    background-color: #30043d;
     position: absolute;
     top: 5%;
     left: 52%;
@@ -50,11 +51,9 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: #b8013e;
 }
 
 #viernes{
-    background-color: #30043d;
     position: absolute;
     top: 5%;
     left: 76%;
@@ -65,11 +64,11 @@
 
     border-radius: 10%;
     border-style: solid;
-    border-color: #b8013e;
     
 }
 @media (max-width: 500px){
 
+   
     .caja_dias{
         background-color: none;
         position: absolute;
@@ -79,65 +78,37 @@
         height: 80%;
         margin-left: 5%;
     }
-    
+
     #martes {
-        background-color: #30043d;
-        position: absolute;
         top: 5%;
         left: 4%;
         width: 40%;
         height: 35%;
-        padding-left: 1%;
-        padding-right: 1%;
-    
-        border-radius: 10%;
-        border-style: solid;
-        border-color: #b8013e;
+
     }
     
     #miercoles{
-        background-color: #30043d;
-        position: absolute;
         top: 5%;
         left: 52%;
         width: 40%;
         height: 35%;
-        padding-left: 1%;
-        padding-right: 1%;
 
-        border-radius: 10%;
-        border-style: solid;
-        border-color: #b8013e;
+
     }
     
     #jueves{
-        background-color: #30043d;
-        position: absolute;
         top: 43%;
         left: 4%;
         width: 40%;
         height: 35%;
-        padding-left: 1%;
-        padding-right: 1%;
 
-        border-radius: 10%;
-        border-style: solid;
-        border-color: #b8013e;
     }
     
     #viernes{
-        background-color: #30043d;
-        position: absolute;
         top: 43%;
         left: 52%;
         width: 40%;
         height: 35%;
-        padding-left: 1%;
-        padding-right: 1%;
-
-        border-radius: 10%;
-        border-style: solid;
-        border-color: #b8013e;
         
     }
 }
