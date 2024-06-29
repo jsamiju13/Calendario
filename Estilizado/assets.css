@@ -11,10 +11,12 @@
 
 i{
   color: aliceblue;
-  width: 1vw;
+  font-size: 4vw;
+  width: 4vw;
 }
 
 a{
   color: #e54059;
-  
+  font-size: 2vw;
+  width: 2vw;
 }

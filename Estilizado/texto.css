@@ -36,9 +36,11 @@ hr{
 
 h3{
     color: aliceblue;
-    font-size: 1.4vw;
+    font-size: 2vw;
     font-family: 'Lovelo', sans-serif;
     font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 0%;
 }
 
 h4{

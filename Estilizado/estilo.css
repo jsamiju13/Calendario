@@ -9,20 +9,24 @@
     left: 0vw;
 
 }
-
+  
 li button{
     
     background-color: #30043d;
     width: 100%;
     
-    left: 50%;
+    left: 0%;
     cursor: pointer;
     border: 1%;
     border-color: #e54059;
     border-style: solid;
     border-radius: 15px;
     margin-bottom: 5%;
-    
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
 }
 
 
@@ -36,6 +40,7 @@ button:active{
     
     position: relative;
     top: 0;
+    left: 0%;
     background-color: none;
     
 }
