@@ -90,8 +90,86 @@ li ul{
     
 }
 
+.caja_paletas{
+
+    background-color: #ffffff;
+    border-color: transparent;
+    position: absolute;
+    left: -82%;
+    top: 75%;
+    width: 95%;
+    height: 20%;
+    border-style: solid;
+    border-radius: 3vw;
+    
+}
+
+.div_paletas{
+
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    left: 0.5%;
+    top: 10%;
+    width: 97%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_paletas i{
+    position: relative;
+    display: initial;
+    background-color: transparent;
+    font-size: 8vw;
+    width: auto;
+    height: auto;
+}
+
+.div_paletas button{
+
+    background-color: transparent;
+    border-color: transparent;
+    border-style: solid; 
+}
+
 @media (max-width: 599px){
  
+    .caja_paletas{
+
+        background-color: #ffffff;
+        border-color: transparent;
+        position: absolute;
+        left: -82%;
+        top: 85%;
+        width: 97%;
+        height: 10%;
+        border-style: solid;
+        border-radius: 3vw;
+        
+    }
+    
+    .div_paletas{
+    
+        display: flex;
+        position: relative;
+        background-color: transparent;
+        left: 0.5%;
+        top: 10%;
+        width: 97%;
+        height: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .div_paletas i{
+        position: relative;
+        display: initial;
+        background-color: transparent;
+        font-size: 10vw;
+        width: auto;
+        height: auto;
+    }
 
 }
 
