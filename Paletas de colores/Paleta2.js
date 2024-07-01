@@ -10,14 +10,14 @@ function constructor_colores2(){
     let diasBack = '#F8F8F8'
     let diasBord = '#F8F8F8'
     let h3Color = '#00927B'
-    let h4Color = "#001759"
+    let h4Color = "#484949"
     let spanColor = "#00927B"
     let buttonBord ='#00927B'
     let buttonBordHover = "#1C1C1C"
     let paleta9Color = "#1C1C1C"
 
     //PALETA: SWEET ALERT//
-    titleColor = "#001759"
+    titleColor = "#484949"
     confirmButton= "#00C48F"
     color_icon = "#F8F8F8"
     color_background = 'linear-gradient(to bottom, #00C48F, #B9FFE1)'
