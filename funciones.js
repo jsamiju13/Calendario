@@ -25,6 +25,7 @@ var take_info_estructura_datos = document.querySelector(".caja_info_estructura_d
 
 
 var boton_click = document.querySelector("#sonido_boton");
+var musica_main = document.querySelector("#sonido_main");
 
 let titleColor = "#ffffff"
 let confirmButton ="#000000"
@@ -205,7 +206,7 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min) + min);
 }
-
+musica_main.play();
 if (getRandomInt(1,5)==1){
   window.addEventListener("DOMContentLoaded", function(event) {
     constructor_colores()
