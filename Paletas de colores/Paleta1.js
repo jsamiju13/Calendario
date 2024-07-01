@@ -12,6 +12,16 @@ function constructor_colores(){
     let spanColor = "#e54059"
     let buttonBord ="#fdb36a"
     let paleta9Color = "#FFFFFF"
+    
+    //PALETA: SWEET ALERT//
+
+    confirmButton= "#30043d"
+    titleColor = "#FFFFFF"
+    color_icon = "#fdb36a"
+    color_background = 'linear-gradient(to bottom, #30043d, #b8013e)'
+
+    //--------------//
+
     //PALETA: GENERAL//
   
     let paleta_general = document.querySelector(".General");
@@ -132,7 +142,7 @@ function constructor_colores(){
   
   //--------------//
 
-  
+  //PALETA: CAJA DE PALETAS, BOTONES DE PALETAS//
 
   let paleta_menu_paletas = document.querySelector(".caja_paletas")
   paleta_menu_paletas.style.backgroundColor = diasBack;

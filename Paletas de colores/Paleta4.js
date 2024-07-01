@@ -2,7 +2,7 @@ function constructor_colores4(){
 
     //PALETA DE COLORES----------------------------------------------------------------------------------------------------------
     
-        let backimg= 'linear-gradient(to bottom, #000000, #001BFF';
+        let backimg= 'linear-gradient(to bottom, #000000, #001BFF)';
         let title = "#F8F8F8";
         let diasBack = '#1C1C1C'
         let diasBord = 'transparent'
@@ -17,6 +17,14 @@ function constructor_colores4(){
         let buttonBord ='#0093FF'
         let buttonBordHover = "#F8F8F8"
         let paleta9Color = "#FFFFFF"
+
+        //PALETA: SWEET ALERT//
+        titleColor = "#F8F8F8"
+        confirmButton= "#1C1C1C"
+        color_icon = "#0093FF"
+        color_background = 'linear-gradient(to bottom, #000000, #001BFF)'
+
+        //--------------//
         
         //PALETA: GENERAL//
       

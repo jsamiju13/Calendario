@@ -57,14 +57,11 @@ li ul{
 }
 
 .swal2-title {
-
-    color: #ffffff;
     font-family: 'Lovelo', sans-serif;
 }
 
 #swal2-html-container{
 
-    color: aliceblue;
     font-family: 'Lovelo', sans-serif;
 }
 
@@ -73,13 +70,12 @@ li ul{
 }
 .swal2-confirm.swal2-styled{
 
-    background-color: #30043d;
+    background-color: #ffffff;
     font-family: 'Lovelo', sans-serif;
 }
 .swal2-popup.swal2-modal.swal2-icon-info.swal2-show{
 
-    border-style: solid;
-    border-color: #b8013e;
+    border-style: none;
     background-image: linear-gradient(to bottom, #30043d, #b8013e);
 }
 

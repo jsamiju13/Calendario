@@ -26,101 +26,62 @@ var take_info_estructura_datos = document.querySelector(".caja_info_estructura_d
 
 var boton_click = document.querySelector("#sonido_boton");
 
-launcher_organizacion_metodos.addEventListener("click",function(){                                            
-  boton_click.play();
+let titleColor = "#ffffff"
+let confirmButton ="#000000"
+let color_icon = "#ffffff"
+let color_background = 'linear-gradient(to bottom, #000000, #ffffff)'
+function sweet(datos,dia){
   Swal.fire({
-    title: 'Información!',
-    text: take_info_organizacion_metodos.innerHTML,
+    title: dia,
+    confirmButtonColor:confirmButton,
+    color: titleColor,
+    iconColor: color_icon,
+    background:color_background, 
+    text: datos,
     icon: 'info',
     confirmButtonText: 'Vale!'
+
   })
+}
+
+launcher_organizacion_metodos.addEventListener("click",function(){                                            
+  boton_click.play();
+  sweet(take_info_organizacion_metodos.innerHTML,"Martes!");
 });
 
 launcher_lenguaje_programacion_martes.addEventListener("click",function(){
   boton_click.play();
-  Swal.fire({
-    title: 'Información!',
-    text: take_info_lenguaje_programacion_martes.innerHTML,
-    icon: 'info',
-    confirmButtonText: 'Vale!'
-  })
+  sweet(take_info_lenguaje_programacion_martes.innerHTML,"Martes!");
 });
-
-
-
 
 launcher_ingles.addEventListener("click",function(){
   boton_click.play();
-  Swal.fire({
-    title: 'Información!',
-    text: take_info_ingles.innerHTML,
-    icon: 'info',
-    confirmButtonText: 'Vale!'
-  })
+  sweet(take_info_ingles.innerHTML,"Miércoles!");
 });
-
-
-
 
 launcher_sistemas_informacion.addEventListener("click",function(){
   boton_click.play();
-  Swal.fire({
-    title: 'Información!',
-    text: take_info_sistemas_informacion.innerHTML,
-    icon: 'info',
-    confirmButtonText: 'Vale!'
-  })
+  sweet(take_info_sistemas_informacion.innerHTML,"Miércoles!");
 });
-
-
-
 
 launcher_actividades_complementarias_tecnologia.addEventListener("click",function(){
   boton_click.play();
-  Swal.fire({
-    title: 'Información!',
-    text: take_info_actividades_complementarias_tecnologia.innerHTML,
-    icon: 'info',
-    confirmButtonText: 'Vale!'
-  })
+  sweet(take_info_actividades_complementarias_tecnologia.innerHTML,"Miércoles!");
 });
-
-
 
 launcher_lenguaje_programacion_jueves.addEventListener("click",function(){
   boton_click.play();
-  Swal.fire({
-    title: 'Información!',
-    text: take_info_lenguaje_programacion_jueves.innerHTML,
-    icon: 'info',
-    confirmButtonText: 'Vale!'
-  })
+  sweet(take_info_lenguaje_programacion_jueves.innerHTML,"Jueves!");
 });
-
-
-
 
 launcher_matematica.addEventListener("click",function(){
   boton_click.play();
-  Swal.fire({
-    title: 'Información!',
-    text: take_info_matematica.innerHTML,
-    icon: 'info',
-    confirmButtonText: 'Vale!'
-  })
+  sweet(take_info_matematica.innerHTML,"Jueves!");
 });
-
-
-
 
 launcher_estructura_datos.addEventListener("click",function(){
   boton_click.play();
-  Swal.fire({
-    title: 'Información!',
-    text: take_info_estructura_datos.innerHTML,
-    icon: 'info',
-    confirmButtonText: 'Vale!'
-  })
+  sweet(take_info_estructura_datos.innerHTML,"Viérnes!");
 });
 
 let button_paleta_1 = document.querySelector("#paleta1")

@@ -16,6 +16,14 @@ function constructor_colores3(){
         let spanColor = "#00FFFF"
         let buttonBord ='#28C1C1'
         let paleta9Color = "#1C1C1C"
+
+        //PALETA: SWEET ALERT//
+        titleColor = "#F8F8F8"
+        confirmButton= "#001759"
+        color_icon = "#00FFFF"
+        color_background = 'linear-gradient(to bottom, #014ba0, #00FFFF)'
+
+        //--------------//
         
         //PALETA: GENERAL//
       
