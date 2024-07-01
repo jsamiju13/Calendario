@@ -25,7 +25,6 @@ var take_info_estructura_datos = document.querySelector(".caja_info_estructura_d
 
 
 var boton_click = document.querySelector("#sonido_boton");
-var musica_main = document.querySelector("#sonido_main");
 
 let titleColor = "#ffffff"
 let confirmButton ="#000000"
@@ -209,24 +208,20 @@ function getRandomInt(min, max) {
 
 if (getRandomInt(1,5)==1){
   window.addEventListener("DOMContentLoaded", function(event) {
-    musica_main.play();
     constructor_colores()
   });
 }else{
   if(getRandomInt(1,5)==2){
     window.addEventListener("DOMContentLoaded", function(event) {
-      musica_main.play();
       constructor_colores2()
     });
   }else{
     if(getRandomInt(1,5)==3){
       window.addEventListener("DOMContentLoaded", function(event) {
-        musica_main.play();
         constructor_colores3()
       });
     }else{
       window.addEventListener("DOMContentLoaded", function(event) {
-        musica_main.play();
         constructor_colores4()
       });
     }
