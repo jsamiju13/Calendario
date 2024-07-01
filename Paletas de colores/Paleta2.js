@@ -5,22 +5,27 @@ function constructor_colores2(){
 
 //PALETA DE COLORES----------------------------------------------------------------------------------------------------------
 
-    let backimg= 'linear-gradient(to bottom, #00C48F, #B9FFE1)';
+    let backimg= 'linear-gradient(to bottom, #0099F0, #F000E8)';
     let title = "#F8F8F8";
     let diasBack = '#F8F8F8'
     let diasBord = '#F8F8F8'
-    let h3Color = '#00927B'
+    let h3Color = '#F000E8'
     let h4Color = "#484949"
-    let spanColor = "#00927B"
-    let buttonBord ='#00927B'
-    let buttonBordHover = "#1C1C1C"
+    let h3HoverColor="#0099F0"
+    let hRColor = "#0099F0"
+    let iColor = "#0099F0"
+    let spanColor = "#0099F0"
+    let titleSpanColor = "#F000E8";
+    let buttonBord ='#0099F0'
+    let buttonBordHover = "#484949"
     let paleta9Color = "#1C1C1C"
 
     //PALETA: SWEET ALERT//
-    titleColor = "#484949"
-    confirmButton= "#00C48F"
+    titleColor = "#F8F8F8"
+    confirmButton= "#0099F0"
     color_icon = "#F8F8F8"
-    color_background = 'linear-gradient(to bottom, #00C48F, #B9FFE1)'
+    color_span = "#FFB114"
+    color_background = 'linear-gradient(to bottom, #0099F0, #F000E8)'
 
     //--------------//
 
@@ -68,8 +73,8 @@ function constructor_colores2(){
     let paleta_hr = document.querySelectorAll("hr")
   
     for(i=0;i<paleta_hr.length;i++){
-      paleta_hr[i].style.borderTopColor = h3Color;
-      paleta_hr[i].style.borderBottomColor = h3Color;
+      paleta_hr[i].style.borderTopColor = hRColor;
+      paleta_hr[i].style.borderBottomColor = hRColor;
     }
     //--------------//
   
@@ -88,6 +93,17 @@ function constructor_colores2(){
     for(i=0;i<paleta_span.length;i++){
       paleta_span[i].style.color = spanColor;
     }
+
+    let paleta_span_swal2 = document.querySelectorAll(".span_desc")
+    for(i=0;i<paleta_span_swal2.length;i++){
+      paleta_span_swal2[i].style.color = color_span;
+    }
+
+    let paleta_span_title = document.querySelectorAll(".span_title_desc")
+    for(i=0;i<paleta_span_title.length;i++){
+      paleta_span_title[i].style.color = titleSpanColor;
+    }
+
     //--------------//
   
     //PALETA: BOTONES; FONDO, BORDES, TEXTO, HOVER//
@@ -108,7 +124,7 @@ function constructor_colores2(){
       }
   
       function hover_on() {
-        paleta_button_h4[i].style.color = h3Color;
+        paleta_button_h4[i].style.color = h3HoverColor;
       }
   
       function hover_off(){
@@ -128,7 +144,7 @@ function constructor_colores2(){
   let paleta_i = document.querySelectorAll(".caja_dias i");
   
   for(i=0;i<paleta_i.length;i++){
-      paleta_i[i].style.color = h3Color;
+      paleta_i[i].style.color = iColor ;
       }
   
   //--------------//
@@ -138,7 +154,7 @@ function constructor_colores2(){
   let paleta_a = document.querySelectorAll("a");
   
   for(i=0;i<paleta_a.length;i++){
-      paleta_a[i].style.color = h3Color;
+      paleta_a[i].style.color = iColor ;
       }
   
   

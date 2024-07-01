@@ -14,6 +14,7 @@ function constructor_colores3(){
         let hRColor = "#28C1C1"
         let iColor = "#00FFFF"
         let spanColor = "#00FFFF"
+        let titleSpanColor = "#00FFFF";
         let buttonBord ='#28C1C1'
         let paleta9Color = "#1C1C1C"
 
@@ -21,6 +22,7 @@ function constructor_colores3(){
         titleColor = "#F8F8F8"
         confirmButton= "#001759"
         color_icon = "#00FFFF"
+        color_span = "#001759"
         color_background = 'linear-gradient(to bottom, #014ba0, #00FFFF)'
 
         //--------------//
@@ -88,6 +90,16 @@ function constructor_colores3(){
         let paleta_span = document.querySelectorAll("span")
         for(i=0;i<paleta_span.length;i++){
           paleta_span[i].style.color = spanColor;
+        }
+
+        let paleta_span_swal2 = document.querySelectorAll(".span_desc")
+        for(i=0;i<paleta_span_swal2.length;i++){
+          paleta_span_swal2[i].style.color = color_span;
+        }
+
+        let paleta_span_title = document.querySelectorAll(".span_title_desc")
+        for(i=0;i<paleta_span_title.length;i++){
+          paleta_span_title[i].style.color = titleSpanColor;
         }
         //--------------//
       

@@ -68,6 +68,16 @@ span{
     color: #000000;
 }
 
+.span_desc{
+    color: #000000;
+}
+
+.p_desc{
+    text-align: center;
+    font-size: 1.4vw; 
+}
+
+
 @media (max-width: 599px){
 
     .semana_plan{
@@ -119,4 +129,7 @@ span{
         font-weight: bold;
     }
 
+    .p_desc{
+        font-size: 5vw; 
+    }
 }

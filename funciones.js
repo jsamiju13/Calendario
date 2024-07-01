@@ -1,27 +1,27 @@
 
 var launcher_organizacion_metodos = document.querySelector("#launcher_organizacion_metodos");
-var take_info_organizacion_metodos = document.querySelector(".caja_info_organizacion_metodos p");
+var take_info_organizacion_metodos = document.querySelector(".caja_info_organizacion_metodos");
 
 var launcher_lenguaje_programacion_martes = document.querySelector("#launcher_lenguaje_programacion_martes");
-var take_info_lenguaje_programacion_martes = document.querySelector(".caja_info_lenguaje_programacion_martes p");
+var take_info_lenguaje_programacion_martes = document.querySelector(".caja_info_lenguaje_programacion_martes");
 
 var launcher_ingles = document.querySelector("#launcher_ingles");
-var take_info_ingles = document.querySelector(".caja_info_ingles p");
+var take_info_ingles = document.querySelector(".caja_info_ingles");
 
 var launcher_sistemas_informacion = document.querySelector("#launcher_sistemas_informacion");
-var take_info_sistemas_informacion = document.querySelector(".caja_info_sistemas_informacion p");
+var take_info_sistemas_informacion = document.querySelector(".caja_info_sistemas_informacion");
 
 var launcher_actividades_complementarias_tecnologia = document.querySelector("#launcher_actividades_complementarias_tecnologia");
-var take_info_actividades_complementarias_tecnologia = document.querySelector(".caja_info_actividades_complementarias_tecnologia p");
+var take_info_actividades_complementarias_tecnologia = document.querySelector(".caja_info_actividades_complementarias_tecnologia");
 
 var launcher_lenguaje_programacion_jueves = document.querySelector("#launcher_lenguaje_programacion_jueves");
-var take_info_lenguaje_programacion_jueves = document.querySelector(".caja_info_lenguaje_programacion_jueves p");
+var take_info_lenguaje_programacion_jueves = document.querySelector(".caja_info_lenguaje_programacion_jueves");
 
 var launcher_matematica = document.querySelector("#launcher_matematica");
-var take_info_matematica = document.querySelector(".caja_info_matematica p");
+var take_info_matematica = document.querySelector(".caja_info_matematica");
 
 var launcher_estructura_datos = document.querySelector("#launcher_estructura_datos");
-var take_info_estructura_datos = document.querySelector(".caja_info_estructura_datos p");
+var take_info_estructura_datos = document.querySelector(".caja_info_estructura_datos");
 
 
 var boton_click = document.querySelector("#sonido_boton");
@@ -29,7 +29,10 @@ var boton_click = document.querySelector("#sonido_boton");
 let titleColor = "#ffffff"
 let confirmButton ="#000000"
 let color_icon = "#ffffff"
+let color_span = "#000000"
 let color_background = 'linear-gradient(to bottom, #000000, #ffffff)'
+
+
 function sweet(datos,dia){
   Swal.fire({
     title: dia,
@@ -37,7 +40,7 @@ function sweet(datos,dia){
     color: titleColor,
     iconColor: color_icon,
     background:color_background, 
-    text: datos,
+    html: datos,
     icon: 'info',
     confirmButtonText: 'Vale!'
 
@@ -150,7 +153,7 @@ button_paleta_9.addEventListener("click", function(){
 });
 
 let paleta1Color = "#e54059"
-let paleta2Color = "#00C48F"
+let paleta2Color = "#F000E8"
 let paleta3Color = "#00FFFF"
 let paleta4Color = "#001BFF"
 let paleta5Color = "transparent"

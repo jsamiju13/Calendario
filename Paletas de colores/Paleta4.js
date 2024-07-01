@@ -7,13 +7,14 @@ function constructor_colores4(){
         let diasBack = '#1C1C1C'
         let diasBord = 'transparent'
         let paletaBack = '#1C1C1C'
-        let h3Color = '#F8F8F8'
+        let h3Color = '#14FF91'
         let h4Color = "#F8F8F8"
         let h3HoverColor="#0093FF"
         let h4HoverColor=""
         let hRColor = "#0093FF"
-        let iColor = "#0093FF"
+        let iColor = "#14FF91"
         let spanColor = "#0093FF"
+        let titleSpanColor = "#14FF91";
         let buttonBord ='#0093FF'
         let buttonBordHover = "#F8F8F8"
         let paleta9Color = "#FFFFFF"
@@ -22,6 +23,7 @@ function constructor_colores4(){
         titleColor = "#F8F8F8"
         confirmButton= "#1C1C1C"
         color_icon = "#0093FF"
+        color_span = "#14FF91"
         color_background = 'linear-gradient(to bottom, #000000, #001BFF)'
 
         //--------------//
@@ -89,6 +91,16 @@ function constructor_colores4(){
         let paleta_span = document.querySelectorAll("span")
         for(i=0;i<paleta_span.length;i++){
           paleta_span[i].style.color = spanColor;
+        }
+
+        let paleta_span_swal2 = document.querySelectorAll(".span_desc")
+        for(i=0;i<paleta_span_swal2.length;i++){
+          paleta_span_swal2[i].style.color = color_span;
+        }
+
+        let paleta_span_title = document.querySelectorAll(".span_title_desc")
+        for(i=0;i<paleta_span_title.length;i++){
+          paleta_span_title[i].style.color = titleSpanColor;
         }
         //--------------//
       

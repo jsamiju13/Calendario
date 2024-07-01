@@ -5,6 +5,7 @@ function constructor_colores(){
 
     let backimg2 = 'linear-gradient(to bottom, #30043d, #b8013e)';
     let title = "#fdb36a";
+    let titleSpanColor = "#e54059";
     let diasBack = '#30043d'
     let diasBord = "#e54059"
     let h3Color = '#ffffff'
@@ -18,6 +19,7 @@ function constructor_colores(){
     confirmButton= "#30043d"
     titleColor = "#FFFFFF"
     color_icon = "#fdb36a"
+    color_span = "#fdb36a"
     color_background = 'linear-gradient(to bottom, #30043d, #b8013e)'
 
     //--------------//
@@ -86,6 +88,14 @@ function constructor_colores(){
     for(i=0;i<paleta_span.length;i++){
       paleta_span[i].style.color = spanColor;
     }
+
+    let paleta_span_swal2 = document.querySelectorAll(".span_desc")
+    for(i=0;i<paleta_span_swal2.length;i++){
+      paleta_span_swal2[i].style.color = color_span;
+    }
+
+    let paleta_span_title = document.querySelector(".span_title_desc")
+    paleta_span_title.style.color = titleSpanColor
     //--------------//
   
     //PALETA: BOTONES; FONDO, BORDES, TEXTO, HOVER//
