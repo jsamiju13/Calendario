@@ -206,23 +206,27 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min) + min);
 }
-musica_main.play();
+
 if (getRandomInt(1,5)==1){
   window.addEventListener("DOMContentLoaded", function(event) {
+    musica_main.play();
     constructor_colores()
   });
 }else{
   if(getRandomInt(1,5)==2){
     window.addEventListener("DOMContentLoaded", function(event) {
+      musica_main.play();
       constructor_colores2()
     });
   }else{
     if(getRandomInt(1,5)==3){
       window.addEventListener("DOMContentLoaded", function(event) {
+        musica_main.play();
         constructor_colores3()
       });
     }else{
       window.addEventListener("DOMContentLoaded", function(event) {
+        musica_main.play();
         constructor_colores4()
       });
     }
