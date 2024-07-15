@@ -1,11 +1,14 @@
 .caja_dias{
     background-color: none;
     position: fixed;
+    display: flex;
     top: 25%;
     left: -5vw;
     width: 100%;
     height: 100%;
     margin-left: 5%;
+    justify-content: space-around;
+
 }
 
 .caja_dias .dia{
@@ -15,53 +18,45 @@
 
 #martes {
     
-    position: absolute;
-    top: 5%;
-    left: 4%;
+
     width: 18%;
     height: 40%;
     padding-left: 1%;
     padding-right: 1%;
-
+    justify-content: space-around;
     border-radius: 10%;
     border-style: solid;
 }
 
 #miercoles{
-    position: absolute;
-    top: 5%;
-    left: 28%;
+
     width: 18%;
     height: 40%;
     padding-left: 1%;
     padding-right: 1%;
-
+    justify-content: space-around;
     border-radius: 10%;
     border-style: solid;
 }
 
 #jueves{
-    position: absolute;
-    top: 5%;
-    left: 52%;
+
     width: 18%;
     height: 40%;
     padding-left: 1%;
     padding-right: 1%;
-
+    justify-content: space-around;
     border-radius: 10%;
     border-style: solid;
 }
 
 #viernes{
-    position: absolute;
-    top: 5%;
-    left: 76%;
+
     width: 18%;
     height: 40%;
     padding-left: 1%;
     padding-right: 1%;
-
+    justify-content: space-around;
     border-radius: 10%;
     border-style: solid;
     

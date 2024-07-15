@@ -14,8 +14,7 @@ li button{
     
     background-color: #ffffff;
     width: 100%;
-    
-    left: 0%;
+    height: 100%;
     cursor: pointer;
     border: 1%;
     border-color: #000000;
@@ -29,17 +28,13 @@ li button{
     position: relative; 
 }
 
-
-
-
  li button h4{
     
     position: relative;
     top: 0;
     left: 0%;
     background-color: none;
-    
-    
+      
 }
 
 li{
