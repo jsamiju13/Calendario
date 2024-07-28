@@ -1,54 +1,39 @@
 
 .General{
-    display: absolute;
+    display: grid;
     width: 100%;
     height: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: 23% 50% 23%;
     background-image: linear-gradient(to bottom, #ffffff, #000000);
     position: absolute;
     top: 0vw;
     left: 0vw;
 
 }
-  
-li button{
+
+button{
     
     background-color: #ffffff;
-    width: 100%;
-    height: 100%;
+    width: 80%;
     cursor: pointer;
-    border: 1%;
     border-color: #000000;
     border-style: solid;
-    border-radius: 15px;
-    margin-bottom: 5%;
+    border-radius: 1.1vw;
 
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    position: relative; 
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: max-content;
+
+    justify-content: space-between;
+    align-items: center;
+
 }
 
- li button h4{
-    
-    position: relative;
-    top: 0;
-    left: 0%;
+button h4{
+    margin-top: 12%;
     background-color: none;
-      
-}
-
-li{
-    list-style-type: none;
-}
-
-ul{
-    list-style-type: none;
-}
-
-li ul{
-    display: none;
-    position: absolute;
-    list-style-type: none;
 }
 
 .swal2-title {
@@ -67,17 +52,6 @@ li ul{
 
     background-color: #ffffff;
     font-family: 'Lovelo', sans-serif;
-}
-.swal2-popup.swal2-modal.swal2-icon-info.swal2-show{
-
-    border-style: none;
-}
-
-.swal2-icon.swal2-info.swal2-icon-show{
-
-    color: #fdb36a;
-    border-color: #fdb36a;
-    
 }
 
 .caja_paletas{
@@ -128,7 +102,7 @@ li ul{
 }
 
 @media (max-width: 599px){
- 
+
     .caja_paletas{
 
         background-color: #ffffff;
@@ -170,19 +144,17 @@ li ul{
 @font-face {
     font-family: 'Lovelo';
     src: url('Fuentes/Lovelo/Lovelo\ Black.otf') format('opentype'),
-         url("Fuentes/Lovelo/Lovelo\ Line\ Bold.otf") format("opentype"),
-         url("Fuentes/Lovelo/Lovelo\ Line\ Light.otf") format("opentype");
+        url("Fuentes/Lovelo/Lovelo\ Line\ Bold.otf") format("opentype"),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Light.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "Montserrat-Classic";
     src: url("Fuentes\Monserrat Classic\Montserrat-Black.otf") format('opentype'),
-         url("Fuentes\Monserrat Classic\Montserrat-Bold.otf") format("opentype"),
-         url("Fuentes\Monserrat Classic\Montserrat-Light.otf") format("opentype");
+        url("Fuentes\Monserrat Classic\Montserrat-Bold.otf") format("opentype"),
+        url("Fuentes\Monserrat Classic\Montserrat-Light.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
-
-  
+}

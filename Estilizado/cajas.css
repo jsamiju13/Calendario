@@ -1,69 +1,33 @@
 .caja_dias{
     background-color: none;
-    position: fixed;
-    display: flex;
-    top: 25%;
-    left: -5vw;
-    width: 100%;
-    height: 100%;
-    margin-left: 5%;
-    justify-content: space-around;
-
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: max-content;
+    max-width: 100%;
+    gap: 3vw;
+    justify-content: center;
 }
 
 .caja_dias .dia{
     background-color: #000000;
     border-color: #ffffff;
-}
+    border-radius: 1.8vw;
+    border-style: solid;
 
-#martes {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content min-content min-content;
     
+    padding-bottom: 5%;
+    padding-top: 5%;
+    gap: 0.5vw;
+    align-items: start;
+    justify-items: center;
 
-    width: 18%;
-    height: 40%;
-    padding-left: 1%;
-    padding-right: 1%;
-    justify-content: space-around;
-    border-radius: 10%;
-    border-style: solid;
 }
 
-#miercoles{
-
-    width: 18%;
-    height: 40%;
-    padding-left: 1%;
-    padding-right: 1%;
-    justify-content: space-around;
-    border-radius: 10%;
-    border-style: solid;
-}
-
-#jueves{
-
-    width: 18%;
-    height: 40%;
-    padding-left: 1%;
-    padding-right: 1%;
-    justify-content: space-around;
-    border-radius: 10%;
-    border-style: solid;
-}
-
-#viernes{
-
-    width: 18%;
-    height: 40%;
-    padding-left: 1%;
-    padding-right: 1%;
-    justify-content: space-around;
-    border-radius: 10%;
-    border-style: solid;
-    
-}
 @media (max-width: 500px){
 
-   
     .caja_dias{
         background-color: none;
         position: absolute;

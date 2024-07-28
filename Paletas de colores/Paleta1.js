@@ -38,13 +38,6 @@ function constructor_colores(){
   
     //--------------//
   
-    //PALETA: SEMANA//
-  
-    let paleta_semana = document.querySelector("#semana")
-    paleta_semana.style.color = title;
-  
-    //--------------//
-  
     //PALETA: DÍAS//
   
     let paleta_dia = document.querySelectorAll(".caja_dias .dia")
