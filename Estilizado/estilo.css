@@ -4,7 +4,7 @@
     width: 100vw;
     height: 100vh;
     grid-template-columns: auto;
-    grid-template-rows: 30% 50% auto;
+    grid-template-rows: 28% 48% auto;
     background-image: linear-gradient(to bottom, #ffffff, #000000);
     position: absolute;
     top: 0vw;
@@ -52,52 +52,31 @@ button h4{
 
     background-color: #ffffff;
     font-family: 'Lovelo', sans-serif;
+    padding-right: 90%;
 }
 
-.caja_paletas{
+.caja_botones{
 
-    background-color: #ffffff;
+    background-color: transparent;
     border-color: transparent;
-    position: absolute;
-    display: none;
-    left: -82%;
-    top: 75%;
-    width: 95%;
-    height: 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
     border-style: solid;
     border-radius: 3vw;
-    
-}
-
-.div_paletas{
-
-    display: flex;
-    position: relative;
-    background-color: transparent;
-    left: 0.5%;
-    top: 10%;
-    width: 97%;
-    height: 80%;
+    align-content: center;
     justify-content: space-between;
-    align-items: center;
 }
 
-.div_paletas i{
-    position: relative;
-    display: initial;
-    background-color: transparent;
-    font-size: 8vw;
-    width: auto;
-    height: auto;
+.caja_botones button{
+    width: min-content;
+    padding: 0%;
+    border-radius: 3vw;
 }
 
-.div_paletas button{
-
-    background-color: transparent;
-    border-color: transparent;
-    border-style: solid; 
+.caja_botones i{
+    font-size: 10vw;
 }
-
 *{
     transition: all 0.5s ease-out;
 }
@@ -119,42 +98,15 @@ button h4{
     button h4{
         margin: 0%;
     }
-
-
-    .caja_paletas{
-
-        background-color: #ffffff;
-        border-color: transparent;
-        position: absolute;
-        left: -82%;
-        top: 85%;
-        width: 97%;
-        height: 10%;
-        border-style: solid;
-        border-radius: 3vw;
-        
+    
+    .caja_botones button{
+        width: min-content;
+        padding: 0%;
+        border-radius: 3vh;
     }
     
-    .div_paletas{
-    
-        display: flex;
-        position: relative;
-        background-color: transparent;
-        left: 0.5%;
-        top: 10%;
-        width: 97%;
-        height: 80%;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .div_paletas i{
-        position: relative;
-        display: initial;
-        background-color: transparent;
-        font-size: 10vw;
-        width: auto;
-        height: auto;
+    .caja_botones i{
+        font-size: 10vh;
     }
 
 }

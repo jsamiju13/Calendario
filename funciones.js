@@ -1,27 +1,27 @@
 
 var launcher_organizacion_metodos = document.querySelector("#launcher_organizacion_metodos");
-var take_info_organizacion_metodos = document.querySelector(".caja_info_organizacion_metodos");
+var take_info_organizacion_metodos = document.querySelector(".caja_info_organizacion_metodos p");
 
 var launcher_lenguaje_programacion_martes = document.querySelector("#launcher_lenguaje_programacion_martes");
-var take_info_lenguaje_programacion_martes = document.querySelector(".caja_info_lenguaje_programacion_martes");
+var take_info_lenguaje_programacion_martes = document.querySelector(".caja_info_lenguaje_programacion_martes p");
 
 var launcher_ingles = document.querySelector("#launcher_ingles");
-var take_info_ingles = document.querySelector(".caja_info_ingles");
+var take_info_ingles = document.querySelector(".caja_info_ingles p");
 
 var launcher_sistemas_informacion = document.querySelector("#launcher_sistemas_informacion");
-var take_info_sistemas_informacion = document.querySelector(".caja_info_sistemas_informacion");
+var take_info_sistemas_informacion = document.querySelector(".caja_info_sistemas_informacion p");
 
 var launcher_actividades_complementarias_tecnologia = document.querySelector("#launcher_actividades_complementarias_tecnologia");
-var take_info_actividades_complementarias_tecnologia = document.querySelector(".caja_info_actividades_complementarias_tecnologia");
+var take_info_actividades_complementarias_tecnologia = document.querySelector(".caja_info_actividades_complementarias_tecnologia p");
 
 var launcher_lenguaje_programacion_jueves = document.querySelector("#launcher_lenguaje_programacion_jueves");
-var take_info_lenguaje_programacion_jueves = document.querySelector(".caja_info_lenguaje_programacion_jueves");
+var take_info_lenguaje_programacion_jueves = document.querySelector(".caja_info_lenguaje_programacion_jueves p");
 
 var launcher_matematica = document.querySelector("#launcher_matematica");
-var take_info_matematica = document.querySelector(".caja_info_matematica");
+var take_info_matematica = document.querySelector(".caja_info_matematica p");
 
 var launcher_estructura_datos = document.querySelector("#launcher_estructura_datos");
-var take_info_estructura_datos = document.querySelector(".caja_info_estructura_datos");
+var take_info_estructura_datos = document.querySelector(".caja_info_estructura_datos p");
 
 
 var boton_click = document.querySelector("#sonido_boton");
@@ -42,7 +42,7 @@ function sweet(datos,dia){
     background:color_background, 
     html: datos,
     icon: 'info',
-    confirmButtonText: 'Vale!'
+    confirmButtonText: 'Vale! '
 
   })
 }
@@ -87,6 +87,7 @@ launcher_estructura_datos.addEventListener("click",function(){
   sweet(take_info_estructura_datos.innerHTML,"Viérnes!");
 });
 
+/*
 let button_paleta_1 = document.querySelector("#paleta1")
 button_paleta_1.addEventListener("click", function(){
     boton_click.play();
@@ -114,43 +115,13 @@ button_paleta_4.addEventListener("click", function(){
     constructor_colores4();
 
   });
-  
-let paleta_menu_paletas = document.querySelector(".caja_paletas")
-let paleta_menu_paletas_i = document.querySelectorAll(".caja_paletas i")
+*/ 
+
+let paleta_menu_paletas = document.querySelector(".caja_botones")
+let paleta_menu_paletas_i = document.querySelectorAll(".caja_botones i")
 let button_paleta_9 = document.querySelector("#paleta9")
+let button_paleta_10 = document.querySelector("#paleta10")
 let paleta_active = 1
-
-button_paleta_9.addEventListener("click", function(){
-  boton_click.play();
-  
-  for (i=0; i<paleta_menu_paletas_i.length-1;i++){
-
-    paleta_menu_paletas_i[i].style.display = "initial"
-  }
-
-  if (paleta_active == 1) {
-    paleta_menu_paletas.style.left = "0%"
-    button_paleta_9.style.position = "absolute"
-    button_paleta_9.style.left = "89.5%"
-    button_paleta_9.style.top = "8%"
-    paleta_active=0
-  }else{
-
-    for (i=0; i<paleta_menu_paletas_i.length-1;i++){
-
-      paleta_menu_paletas_i[i].style.display = "none"
-    }
-    paleta_menu_paletas.style.left = "-81%"
-    button_paleta_9.style.position = "relative"
-    button_paleta_9.style.left = "auto"
-    button_paleta_9.style.top = "auto"
-    paleta_active=1
-  }
-  
-
-
-
-});
 
 let paleta1Color = "#e54059"
 let paleta2Color = "#F000E8"
@@ -162,23 +133,23 @@ let paleta7Color = "transparent"
 let paleta8Color = "transparent"
 let paleta9Color = "#000000"
 
-paleta_i_paleta1 = document.querySelector("#paleta1 i");
-paleta_i_paleta1.style.color =  paleta1Color;
+//paleta_i_paleta1 = document.querySelector("#paleta1 i");
+//paleta_i_paleta1.style.color =  paleta1Color;
   
   
 
-paleta_i_paleta2 = document.querySelector("#paleta2 i");
-paleta_i_paleta2.style.color =  paleta2Color;
+//paleta_i_paleta2 = document.querySelector("#paleta2 i");
+//paleta_i_paleta2.style.color =  paleta2Color;
   
   
 
-paleta_i_paleta3 = document.querySelector("#paleta3 i");
-paleta_i_paleta3.style.color =  paleta3Color;
+//paleta_i_paleta3 = document.querySelector("#paleta3 i");
+//paleta_i_paleta3.style.color =  paleta3Color;
   
   
 
-paleta_i_paleta4 = document.querySelector("#paleta4 i");
-paleta_i_paleta4.style.color =  paleta4Color;
+//paleta_i_paleta4 = document.querySelector("#paleta4 i");
+//paleta_i_paleta4.style.color =  paleta4Color;
   
   
 
@@ -200,7 +171,7 @@ paleta_i_paleta4.style.color =  paleta4Color;
   
   
 
-paleta_i_paleta9 = document.querySelector("#paleta9 i");
+paleta_i_paleta9 = document.querySelector(".caja_botones i");
 paleta_i_paleta9.style.color =  paleta9Color;
 
 function getRandomInt(min, max) {
@@ -209,25 +180,42 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
-if (getRandomInt(1,5)==1){
-  window.addEventListener("DOMContentLoaded", function(event) {
-    constructor_colores()
-  });
-}else{
-  if(getRandomInt(1,5)==2){
-    window.addEventListener("DOMContentLoaded", function(event) {
-      constructor_colores2()
-    });
+let paletaCont = getRandomInt(1,5);
+
+function cambiarColor(paleta){
+
+  if (paleta==1){
+      constructor_colores()
   }else{
-    if(getRandomInt(1,5)==3){
-      window.addEventListener("DOMContentLoaded", function(event) {
-        constructor_colores3()
-      });
+    if(paleta==2){
+        constructor_colores2()
     }else{
-      window.addEventListener("DOMContentLoaded", function(event) {
-        constructor_colores4()
-      });
+      if(paleta==3){
+          constructor_colores3()
+      }else{
+          constructor_colores4()
+      }
     }
   }
-}
+} 
 
+window.addEventListener("DOMContentLoaded", function(){
+  cambiarColor(paletaCont)
+})
+
+button_paleta_9.addEventListener("click", function(){
+
+  boton_click.play();
+  
+  if (paletaCont == 4){
+    paletaCont = 1;
+  }else{
+    paletaCont +=1;
+  }
+
+  cambiarColor(paletaCont)
+});
+button_paleta_10.addEventListener("click", function(){
+  boton_click.play();
+  sweet("Boton De Ayuda","Ayuda!")
+});

@@ -147,18 +147,21 @@ function constructor_colores(){
 
   //PALETA: CAJA DE PALETAS, BOTONES DE PALETAS//
 
-  let paleta_menu_paletas = document.querySelector(".caja_paletas")
-  paleta_menu_paletas.style.backgroundColor = diasBack;
+  let paleta_menu_paletas = document.querySelector(".caja_botones")
+  paleta_menu_paletas.style.backgroundColor = "transparent";
   paleta_menu_paletas.style.borderColor = "transparent";
 
-  let paleta_button_paleta = document.querySelectorAll(".caja_paletas button")
+  let paleta_button_paleta = document.querySelectorAll(".caja_botones button")
   for(i=0;i<paleta_button_paleta.length;i++){
-    paleta_button_paleta[i].style.backgroundColor = "transparent";
+    paleta_button_paleta[i].style.backgroundColor = diasBack;
     paleta_button_paleta[i].style.borderColor = "transparent";
   }
 
-  paleta_i_paleta9 = document.querySelector("#paleta9 i");
-  paleta_i_paleta9.style.color =  paleta9Color;
+  paleta_i_paleta9 = document.querySelectorAll(".caja_botones i");
+  for(i=0;i<paleta_button_paleta.length;i++){
+    paleta_i_paleta9[i].style.color =  paleta9Color;
+  }
+  
   //--------------//
 
   }
