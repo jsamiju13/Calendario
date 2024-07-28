@@ -21,18 +21,17 @@ a{
   background-color: none;
 }
 
-@media (max-width: 599px){
+@media screen and (max-width: 599px){
 
   i{
-    color: #ffffff;
-    font-size: 6vw;
-    width: 6vw;
+    font-size: 3vh;
   }
-  
+
   a{
-    color: #ffffff;
-    font-size: 3vw;
-    width: 3vw;
+    font-size: 2vh;
   }
+}
+
+@media screen and (max-width: 799px), screen and (max-height: 599px) {
 
 }
