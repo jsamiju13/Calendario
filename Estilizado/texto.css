@@ -15,6 +15,9 @@
     color: #000000;
 }
 
+.correo{
+    color: #ffffff;
+}
 
 hr{
     border-style: solid;
@@ -60,7 +63,7 @@ span{
 
 ul{
     display: none
-};
+}
 
 .span_desc{
     color: #000000;

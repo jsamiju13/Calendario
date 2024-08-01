@@ -45,6 +45,12 @@ button h4{
     font-family: 'Lovelo', sans-serif;
 }
 
+#swal2-html-container a{
+
+    color: #000000;
+}
+
+
 .swal2-icon-content{
     font-family: 'Montserrat-Bold', sans-serif;
 }
@@ -52,7 +58,16 @@ button h4{
 
     background-color: #ffffff;
     font-family: 'Lovelo', sans-serif;
-    padding-right: 90%;
+}
+
+.swal2-cancel.swal2-styled{
+
+    background-color: #ffffff;
+    font-family: 'Lovelo', sans-serif;
+}
+
+.swal2-actions{
+    flex-wrap: nowrap;
 }
 
 .caja_botones{
@@ -62,6 +77,8 @@ button h4{
     display: grid;
     grid-template-columns: auto auto;
     width: auto;
+    margin-left: 1%;
+    margin-right: 1%;
     border-style: solid;
     border-radius: 3vw;
     align-content: center;

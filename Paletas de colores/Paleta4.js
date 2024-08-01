@@ -21,7 +21,8 @@ function constructor_colores4(){
 
         //PALETA: SWEET ALERT//
         titleColor = "#F8F8F8"
-        confirmButton= "#1C1C1C"
+        confirmButton= "#0093FF"
+        cancelButton= "#1C1C1C"
         color_icon = "#0093FF"
         color_span = "#14FF91"
         color_background = 'linear-gradient(to bottom, #000000, #001BFF)'
@@ -142,13 +143,12 @@ function constructor_colores4(){
       
       //PALETA: A//
       
-      let paleta_a = document.querySelectorAll("a");
+      let paleta_a = document.querySelectorAll(".icon");
       
       for(i=0;i<paleta_a.length;i++){
           paleta_a[i].style.color = iColor;
           }
-      
-      
+
       //--------------//
     
       //PALETA: CAJA DE PALETAS, BOTONES DE PALETAS//

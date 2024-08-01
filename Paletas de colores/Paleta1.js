@@ -16,7 +16,8 @@ function constructor_colores(){
     
     //PALETA: SWEET ALERT//
 
-    confirmButton= "#30043d"
+    confirmButton= "#fdb36a"
+    cancelButton= "#30043d"
     titleColor = "#FFFFFF"
     color_icon = "#fdb36a"
     color_span = "#fdb36a"
@@ -136,13 +137,12 @@ function constructor_colores(){
   
   //PALETA: A//
   
-  let paleta_a = document.querySelectorAll("a");
+  let paleta_a = document.querySelectorAll(".icon");
   
   for(i=0;i<paleta_a.length;i++){
       paleta_a[i].style.color = h3Color;
       }
-  
-  
+
   //--------------//
 
   //PALETA: CAJA DE PALETAS, BOTONES DE PALETAS//

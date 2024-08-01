@@ -1,39 +1,49 @@
 
-var launcher_organizacion_metodos = document.querySelector("#launcher_organizacion_metodos");
-var take_info_organizacion_metodos = document.querySelector(".caja_info_organizacion_metodos p");
+var botonOrganizacionMetodos = document.querySelector("#botonOrganizacionMetodos");
+var datosOrganizacionMetodos = document.querySelector(".datosOrganizacionMetodos .p_desc");
+var datosExOrganizacionMetodos = document.querySelector(".datosOrganizacionMetodos .p_descEx");
 
-var launcher_lenguaje_programacion_martes = document.querySelector("#launcher_lenguaje_programacion_martes");
-var take_info_lenguaje_programacion_martes = document.querySelector(".caja_info_lenguaje_programacion_martes p");
+var botonLenguajeProgramacionMartes = document.querySelector("#botonLenguajeProgramacionMartes");
+var datosLenguajeProgramacionMartes = document.querySelector(".datosLenguajeProgramacionMartes .p_desc");
+var datosExLenguajeProgramacionMartes = document.querySelector(".datosLenguajeProgramacionMartes .p_descEx");
 
-var launcher_ingles = document.querySelector("#launcher_ingles");
-var take_info_ingles = document.querySelector(".caja_info_ingles p");
+var botonIngles = document.querySelector("#botonIngles");
+var datosIngles= document.querySelector(".datosIngles .p_desc");
+var datosExIngles = document.querySelector(".datosIngles .p_descEx");
 
-var launcher_sistemas_informacion = document.querySelector("#launcher_sistemas_informacion");
-var take_info_sistemas_informacion = document.querySelector(".caja_info_sistemas_informacion p");
+var botonSistemasInformacion = document.querySelector("#botonSistemasInformacion");
+var datosSistemasInformacion = document.querySelector(".datosSistemasInformacion .p_desc");
+var datosExSistemasInformacion = document.querySelector(".datosSistemasInformacion .p_descEx");
 
-var launcher_actividades_complementarias_tecnologia = document.querySelector("#launcher_actividades_complementarias_tecnologia");
-var take_info_actividades_complementarias_tecnologia = document.querySelector(".caja_info_actividades_complementarias_tecnologia p");
+var botonActividadesComplementarias = document.querySelector("#botonActividadesComplementarias");
+var datosActividadesComplementarias = document.querySelector(".datosActividadesComplementarias .p_desc");
+var datosExActividadesComplementarias = document.querySelector(".datosActividadesComplementarias .p_descEx");
 
-var launcher_lenguaje_programacion_jueves = document.querySelector("#launcher_lenguaje_programacion_jueves");
-var take_info_lenguaje_programacion_jueves = document.querySelector(".caja_info_lenguaje_programacion_jueves p");
+var botonLenguajeProgramacionJueves = document.querySelector("#botonLenguajeProgramacionJueves");
+var datosLenguajeProgramacionJueves = document.querySelector(".datosLenguajeProgramacionJueves .p_desc");
+var datosExLenguajeProgramacionJueves = document.querySelector(".datosLenguajeProgramacionJueves .p_descEx");
 
-var launcher_matematica = document.querySelector("#launcher_matematica");
-var take_info_matematica = document.querySelector(".caja_info_matematica p");
+var botonMatematica = document.querySelector("#botonMatematica");
+var datosMatematica = document.querySelector(".datosMatematica .p_desc");
+var datosExMatematica = document.querySelector(".datosMatematica .p_descEx");
 
-var launcher_estructura_datos = document.querySelector("#launcher_estructura_datos");
-var take_info_estructura_datos = document.querySelector(".caja_info_estructura_datos p");
+var botonEstructuraDatos = document.querySelector("#botonEstructuraDatos");
+var datosEstructuraDatos = document.querySelector(".datosEstructuraDatos .p_desc");
+var datosExEstructuraDatos = document.querySelector(".datosEstructuraDatos .p_descEx");
 
-
+var correo = document.querySelector(".correo")
 var boton_click = document.querySelector("#sonido_boton");
 
 let titleColor = "#ffffff"
 let confirmButton ="#000000"
+let cancelButton = "#000000"
 let color_icon = "#ffffff"
 let color_span = "#000000"
 let color_background = 'linear-gradient(to bottom, #000000, #ffffff)'
 
 
-function sweet(datos,dia){
+
+function sweetSimple(datos,dia){
   Swal.fire({
     title: dia,
     confirmButtonColor:confirmButton,
@@ -47,44 +57,74 @@ function sweet(datos,dia){
   })
 }
 
-launcher_organizacion_metodos.addEventListener("click",function(){                                            
+function sweet(datos,dia,datosEx){
+  Swal.fire({
+    title: dia,
+    html: datos,
+    icon: "info",
+    color: titleColor,
+    iconColor: color_icon,
+    background:color_background,
+    showCancelButton: true,
+    confirmButtonColor: confirmButton,
+    cancelButtonColor: cancelButton,
+    confirmButtonText: "Explicame",
+    cancelButtonText: "Vale",
+    reverseButtons: true,
+    showCloseButton: true
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire({
+        title: "Información Extra:",
+        html: datosEx,
+        icon: "question",
+        iconColor: color_icon,
+        color: titleColor,
+        background:color_background,
+        confirmButtonColor: confirmButton,
+      });
+    }
+  });
+};
+
+botonOrganizacionMetodos.addEventListener("click",function(){                                            
   boton_click.play();
-  sweet(take_info_organizacion_metodos.innerHTML,"Martes!");
+  sweet(datosOrganizacionMetodos.innerHTML,"Martes!",datosExOrganizacionMetodos.innerHTML);
 });
 
-launcher_lenguaje_programacion_martes.addEventListener("click",function(){
+botonLenguajeProgramacionMartes.addEventListener("click",function(){
   boton_click.play();
-  sweet(take_info_lenguaje_programacion_martes.innerHTML,"Martes!");
+  sweet(datosLenguajeProgramacionMartes.innerHTML,"Martes!",datosExLenguajeProgramacionMartes.innerHTML);
 });
 
-launcher_ingles.addEventListener("click",function(){
+botonIngles.addEventListener("click",function(){
   boton_click.play();
-  sweet(take_info_ingles.innerHTML,"Miércoles!");
+  sweet(datosIngles.innerHTML,"Miércoles!",datosExIngles.innerHTML);
 });
 
-launcher_sistemas_informacion.addEventListener("click",function(){
+botonSistemasInformacion.addEventListener("click",function(){
   boton_click.play();
-  sweet(take_info_sistemas_informacion.innerHTML,"Miércoles!");
+  sweet(datosSistemasInformacion.innerHTML,"Miércoles!",datosExSistemasInformacion.innerHTML);
 });
 
-launcher_actividades_complementarias_tecnologia.addEventListener("click",function(){
+botonActividadesComplementarias.addEventListener("click",function(){
   boton_click.play();
-  sweet(take_info_actividades_complementarias_tecnologia.innerHTML,"Miércoles!");
+  sweet(datosActividadesComplementarias.innerHTML,"Miércoles!",datosExActividadesComplementarias.innerHTML);
 });
 
-launcher_lenguaje_programacion_jueves.addEventListener("click",function(){
+botonLenguajeProgramacionJueves.addEventListener("click",function(){
   boton_click.play();
-  sweet(take_info_lenguaje_programacion_jueves.innerHTML,"Jueves!");
+  sweet(datosLenguajeProgramacionJueves.innerHTML,"Jueves!",datosExLenguajeProgramacionJueves.innerHTML);
 });
 
-launcher_matematica.addEventListener("click",function(){
+botonMatematica.addEventListener("click",function(){
   boton_click.play();
-  sweet(take_info_matematica.innerHTML,"Jueves!");
+  sweet(datosMatematica.innerHTML,"Jueves!",datosExMatematica.innerHTML);
 });
 
-launcher_estructura_datos.addEventListener("click",function(){
+botonEstructuraDatos.addEventListener("click",function(){
   boton_click.play();
-  sweet(take_info_estructura_datos.innerHTML,"Viérnes!");
+  sweet(datosEstructuraDatos.innerHTML,"Viérnes!",datosExEstructuraDatos.innerHTML);
 });
 
 /*
@@ -217,5 +257,5 @@ button_paleta_9.addEventListener("click", function(){
 });
 button_paleta_10.addEventListener("click", function(){
   boton_click.play();
-  sweet("Boton De Ayuda","Ayuda!")
+  sweetSimple("Si tienes alguna idea o sugerencia, házmelo saber!",correo)
 });
