@@ -32,7 +32,10 @@ var datosEstructuraDatos = document.querySelector(".datosEstructuraDatos .p_desc
 var datosExEstructuraDatos = document.querySelector(".datosEstructuraDatos .p_descEx");
 
 var correo = document.querySelector(".correo")
+var patreon = document.querySelector(".patreon")
+
 var boton_click = document.querySelector("#sonido_boton");
+var botonTitulo = document.querySelector("#botonSemana")
 
 let titleColor = "#ffffff"
 let confirmButton ="#000000"
@@ -40,8 +43,6 @@ let cancelButton = "#000000"
 let color_icon = "#ffffff"
 let color_span = "#000000"
 let color_background = 'linear-gradient(to bottom, #000000, #ffffff)'
-
-
 
 function sweetSimple(datos,dia){
   Swal.fire({
@@ -57,7 +58,7 @@ function sweetSimple(datos,dia){
   })
 }
 
-function sweet(datos,dia,datosEx){
+function sweet(datos,dia,datosEx,textoConfirmar){
   Swal.fire({
     title: dia,
     html: datos,
@@ -68,7 +69,7 @@ function sweet(datos,dia,datosEx){
     showCancelButton: true,
     confirmButtonColor: confirmButton,
     cancelButtonColor: cancelButton,
-    confirmButtonText: "Explicame",
+    confirmButtonText: textoConfirmar,
     cancelButtonText: "Vale",
     reverseButtons: true,
     showCloseButton: true
@@ -89,127 +90,51 @@ function sweet(datos,dia,datosEx){
 
 botonOrganizacionMetodos.addEventListener("click",function(){                                            
   boton_click.play();
-  sweet(datosOrganizacionMetodos.innerHTML,"Martes!",datosExOrganizacionMetodos.innerHTML);
+  sweet(datosOrganizacionMetodos.innerHTML,"Martes!",datosExOrganizacionMetodos.innerHTML,"Explicame");
 });
 
 botonLenguajeProgramacionMartes.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosLenguajeProgramacionMartes.innerHTML,"Martes!",datosExLenguajeProgramacionMartes.innerHTML);
+  sweet(datosLenguajeProgramacionMartes.innerHTML,"Martes!",datosExLenguajeProgramacionMartes.innerHTML,"Explicame");
 });
 
 botonIngles.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosIngles.innerHTML,"Miércoles!",datosExIngles.innerHTML);
+  sweet(datosIngles.innerHTML,"Miércoles!",datosExIngles.innerHTML,"Explicame");
 });
 
 botonSistemasInformacion.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosSistemasInformacion.innerHTML,"Miércoles!",datosExSistemasInformacion.innerHTML);
+  sweet(datosSistemasInformacion.innerHTML,"Miércoles!",datosExSistemasInformacion.innerHTML,"Explicame");
 });
 
 botonActividadesComplementarias.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosActividadesComplementarias.innerHTML,"Miércoles!",datosExActividadesComplementarias.innerHTML);
+  sweet(datosActividadesComplementarias.innerHTML,"Miércoles!",datosExActividadesComplementarias.innerHTML,"Explicame");
 });
 
 botonLenguajeProgramacionJueves.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosLenguajeProgramacionJueves.innerHTML,"Jueves!",datosExLenguajeProgramacionJueves.innerHTML);
+  sweet(datosLenguajeProgramacionJueves.innerHTML,"Jueves!",datosExLenguajeProgramacionJueves.innerHTML,"Explicame");
 });
 
 botonMatematica.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMatematica.innerHTML,"Jueves!",datosExMatematica.innerHTML);
+  sweet(datosMatematica.innerHTML,"Jueves!",datosExMatematica.innerHTML,"Explicame");
 });
 
 botonEstructuraDatos.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosEstructuraDatos.innerHTML,"Viérnes!",datosExEstructuraDatos.innerHTML);
+  sweet(datosEstructuraDatos.innerHTML,"Viérnes!",datosExEstructuraDatos.innerHTML,"Explicame");
 });
-
-/*
-let button_paleta_1 = document.querySelector("#paleta1")
-button_paleta_1.addEventListener("click", function(){
-    boton_click.play();
-    constructor_colores();
-
-  });
-
-let button_paleta_2 = document.querySelector("#paleta2")
-button_paleta_2.addEventListener("click", function(){
-    boton_click.play();
-    constructor_colores2();
-
-  });
-  
-let button_paleta_3 = document.querySelector("#paleta3")
-button_paleta_3.addEventListener("click", function(){
-  boton_click.play();
-  constructor_colores3();
-
-});
-  
-let button_paleta_4 = document.querySelector("#paleta4")
-button_paleta_4.addEventListener("click", function(){
-    boton_click.play();
-    constructor_colores4();
-
-  });
-*/ 
 
 let paleta_menu_paletas = document.querySelector(".caja_botones")
 let paleta_menu_paletas_i = document.querySelectorAll(".caja_botones i")
 let button_paleta_9 = document.querySelector("#paleta9")
 let button_paleta_10 = document.querySelector("#paleta10")
-let paleta_active = 1
-
-let paleta1Color = "#e54059"
-let paleta2Color = "#F000E8"
-let paleta3Color = "#00FFFF"
-let paleta4Color = "#001BFF"
-let paleta5Color = "transparent"
-let paleta6Color = "transparent"
-let paleta7Color = "transparent"
-let paleta8Color = "transparent"
+let paleta_active = 1;
+let cont = 0;
 let paleta9Color = "#000000"
-
-//paleta_i_paleta1 = document.querySelector("#paleta1 i");
-//paleta_i_paleta1.style.color =  paleta1Color;
-  
-  
-
-//paleta_i_paleta2 = document.querySelector("#paleta2 i");
-//paleta_i_paleta2.style.color =  paleta2Color;
-  
-  
-
-//paleta_i_paleta3 = document.querySelector("#paleta3 i");
-//paleta_i_paleta3.style.color =  paleta3Color;
-  
-  
-
-//paleta_i_paleta4 = document.querySelector("#paleta4 i");
-//paleta_i_paleta4.style.color =  paleta4Color;
-  
-  
-
-//paleta_i_paleta5 = document.querySelector("#paleta5 i");
-//paleta_i_paleta5.style.color =  paleta5Color;
-  
-//paleta_i_paleta2 = document.querySelector("#paleta6 i");
-//paleta_i_paleta2.style.color =  paleta6Color;
-  
-  
-
-//paleta_i_paleta3 = document.querySelector("#paleta7 i");
-//paleta_i_paleta3.style.color =  paleta7Color;
-  
-  
-
-//paleta_i_paleta4 = document.querySelector("#paleta8 i");
-//paleta_i_paleta4.style.color =  paleta8Color;
-  
-  
 
 paleta_i_paleta9 = document.querySelector(".caja_botones i");
 paleta_i_paleta9.style.color =  paleta9Color;
@@ -255,7 +180,16 @@ button_paleta_9.addEventListener("click", function(){
 
   cambiarColor(paletaCont)
 });
+
 button_paleta_10.addEventListener("click", function(){
   boton_click.play();
-  sweetSimple("Si tienes alguna idea o sugerencia, házmelo saber!",correo)
+  sweet("Si tienes alguna idea o sugerencia, házmelo saber!", correo, patreon, "Patrocinar")
+});
+
+botonTitulo.addEventListener("click", function(){
+  cont++;
+  if (cont == 10){
+    cont = 1;
+    sweetSimple("Felicidades! lo Encontraste","Easter Egg")
+  }
 });

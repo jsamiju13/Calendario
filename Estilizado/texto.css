@@ -19,6 +19,10 @@
     color: #ffffff;
 }
 
+.patreon{
+    color: #ffffff;
+}
+
 hr{
     border-style: solid;
     width: 16vw;
@@ -69,7 +73,7 @@ ul{
     color: #000000;
 }
 
-.p_desc{
+.p_desc and .p_descEx{
     text-align: center;
     font-size: 1.4vw; 
 }
