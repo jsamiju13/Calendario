@@ -31,6 +31,10 @@ button{
     align-items: center;
 }
 
+button:active{
+    transform: scale(0.9);
+}
+
 button h4{
     margin-top: 12%;
     background-color: none;

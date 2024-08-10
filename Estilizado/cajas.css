@@ -24,6 +24,9 @@
     align-items: start;
     justify-items: center;
 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    overflow: auto;
+
 }
 
 .caja_botones{
@@ -45,6 +48,8 @@
     width: min-content;
     padding: 0%;
     border-radius: 3vw;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    
 }
 
 .caja_botones i{
