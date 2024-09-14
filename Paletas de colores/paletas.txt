@@ -1,0 +1,236 @@
+  ////AZUL OSCURO////
+  
+  if (paleta == 3){
+
+    // FONDO //
+      general.style.setProperty("--bg-image", 'linear-gradient(to bottom, #17153B, #433D8B)')
+    //--------------//
+  
+    // TITULO //
+    titulo.style.setProperty("--color", '#C8ACD6')
+    titulo.style.setProperty("--text-shadow", '5px 5px 5px rgba(67, 61, 139, 0.5)')
+  
+    for(i=0; i< tituloSpan.length;i++){
+      tituloSpan[i].style.setProperty("--color", "#433D8B")
+    }
+  
+    //--------------//
+  
+    // CAJAS //
+    for(i=0; i< cajaDia.length;i++){
+      cajaDia[i].style.setProperty("--bg-color", '#17153B')
+      cajaDia[i].style.setProperty("--border-color", 'transparent')
+      cajaDia[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(0, 0, 0, 0.5)')
+    }
+  
+    // H3 //
+    for(i=0; i< h3.length;i++){
+      h3[i].style.setProperty("--color", "#433D8B")
+      h3[i].style.setProperty("--text-shadow", '2px 2px 2px rgba(67, 61, 139, 0.5)')
+    }
+    //--------------//
+  
+    // HR //
+    for(i=0; i< hr.length;i++){
+      hr[i].style.setProperty("--border-top-color", "#433D8B")
+      hr[i].style.setProperty("--border-bottom-color", "#433D8B")
+    }
+    //--------------//
+  
+    // H4 //
+    for(i=0; i< h4.length;i++){
+      h4[i].style.setProperty("--color", "#C8ACD6")
+      h4[i].style.setProperty("--text-shadow", '2px 2px 2px rgba(67, 61, 139, 0.5)')
+    }
+  
+    for(i=0; i< spanH4.length;i++){
+      spanH4[i].style.setProperty("--color", "#433D8B")
+    }
+    //--------------//
+  
+    // SPAN //
+  
+    //--------------//
+  
+    // BOTONES //
+    for (let i = 0; i < buttonDias.length; i++) {
+      buttonDias[i].style.setProperty("--bg-color", 'transparent')
+      buttonDias[i].style.setProperty("--border-color", '#433D8B')
+  
+      function handleMouseDown() {
+        buttonDias[i].style.setProperty("--border-color", '#C8ACD6');
+      }
+  
+      function handleMouseUp() {
+        buttonDias[i].style.setProperty("--border-color", '#433D8B');
+      }
+  
+      function hover_on() {
+        buttonDiasH4[i].style.setProperty('--color',"#433D8B")
+      }
+  
+      function hover_off(){
+        buttonDiasH4[i].style.setProperty('--color','#C8ACD6');
+      }
+  
+      buttonDias[i].addEventListener("mousedown", handleMouseDown);
+      buttonDias[i].addEventListener("mouseup", handleMouseUp);
+      buttonDiasH4[i].addEventListener("mouseover", hover_on);
+      buttonDiasH4[i].addEventListener("mouseout", hover_off);
+    }
+  
+    //--------------//
+  
+    // ICONS // 
+    for(i=0; i< iconI.length;i++){
+      iconI[i].style.setProperty("--color", "#C8ACD6")
+      iconI[i].style.setProperty("--text-shadow", 'none')
+    }
+  
+    for(i=0; i< iconA.length;i++){
+      iconA[i].style.setProperty("--color", "#C8ACD6")
+      iconA[i].style.setProperty("--text-shadow", 'none')
+    }
+    //--------------//
+  
+    //--------------//
+  
+    // EXTRAS //
+    correo.style.setProperty("--color", '#433D8B')
+    correo.style.setProperty("--text-shadow", 'none')
+  
+    patreon.style.setProperty("--color", '#433D8B')
+    patreon.style.setProperty("--text-shadow", 'none')
+    
+    for(i=0; i< cajaBotonesButton.length;i++){
+      cajaBotonesButton[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(0, 0, 0, 0.5)')
+    }
+  
+    botonPaleta[0].style.setProperty("--bg-color", "#17153B")
+    botonPaleta[1].style.setProperty("--bg-color", "#17153B")
+    botonPaleta[0].style.setProperty("--border-color", "transparent")
+    botonPaleta[1].style.setProperty("--border-color", "transparent")
+  
+    botonPaletaI[0].style.setProperty("--color", "#C8ACD6")
+    botonPaletaI[1].style.setProperty("--color", "#C8ACD6")
+    //--------------//
+  
+  }
+
+
+//// ROJO AMARILLO ////
+
+
+    if (paleta == 0){
+
+  // FONDO //
+  general.style.setProperty("--bg-image", 'linear-gradient(to bottom, #30043d, #b8013e)')
+  //--------------//
+
+  // TITULO //
+  titulo.style.setProperty("--color", '#fdb36a')
+  titulo.style.setProperty("--text-shadow", '5px 5px 5px rgba(0, 0, 0, 0.5)')
+
+  for(i=0; i< tituloSpan.length;i++){
+    tituloSpan[i].style.setProperty("--color", "#e54059")
+  }
+  //--------------//
+
+  // CAJAS //
+
+  for(i=0; i< cajaDia.length;i++){
+    cajaDia[i].style.setProperty("--bg-color", '#30043d')
+    cajaDia[i].style.setProperty("--border-color", '#e54059')
+    cajaDia[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(0, 0, 0, 0.5)')
+  }
+
+  // H3 //
+  for(i=0; i< h3.length;i++){
+    h3[i].style.setProperty("--color", "#ffffff")
+    h3[i].style.setProperty("--text-shadow", 'none')
+  }
+  //--------------//
+
+  // HR //
+  for(i=0; i< hr.length;i++){
+    hr[i].style.setProperty("--border-top-color", "#e54059")
+    hr[i].style.setProperty("--border-bottom-color", "#e54059")
+  }
+  //--------------//
+
+  // H4 //
+  for(i=0; i< h4.length;i++){
+    h4[i].style.setProperty("--color", "#fdb36a")
+    h4[i].style.setProperty("--text-shadow", 'none')
+  }
+  for(i=0; i< spanH4.length;i++){
+    spanH4[i].style.setProperty("--color", "#e54059")
+  }
+  //--------------//
+
+  // SPAN //
+
+  //--------------//
+
+  // BOTONES //
+  for (let i = 0; i < buttonDias.length; i++) {
+    buttonDias[i].style.setProperty("--bg-color", 'transparent')
+    buttonDias[i].style.setProperty("--border-color", '#e54059')
+
+    function handleMouseDown() {
+      buttonDias[i].style.setProperty("--border-color", '#fdb36a');
+    }
+
+    function handleMouseUp() {
+      buttonDias[i].style.setProperty("--border-color", '#e54059');
+    }
+
+    function hover_on() {
+      buttonDiasH4[i].style.setProperty('--color',"#e54059")
+    }
+
+    function hover_off(){
+      buttonDiasH4[i].style.setProperty('--color','#fdb36a');
+    }
+
+    buttonDias[i].addEventListener("mousedown", handleMouseDown);
+    buttonDias[i].addEventListener("mouseup", handleMouseUp);
+    buttonDiasH4[i].addEventListener("mouseover", hover_on);
+    buttonDiasH4[i].addEventListener("mouseout", hover_off);
+  }
+  //--------------//
+
+  // ICONS // 
+  for(i=0; i< iconI.length;i++){
+    iconI[i].style.setProperty("--color", "#ffffff")
+    iconI[i].style.setProperty("--text-shadow", 'none')
+  }
+
+  for(i=0; i< iconA.length;i++){
+    iconA[i].style.setProperty("--color", "#ffffff")
+    iconA[i].style.setProperty("--text-shadow", 'none')
+  }
+  //--------------//
+
+  // EXTRAS //
+  correo.style.setProperty("--color", '#fdb36a')
+  correo.style.setProperty("--text-shadow", 'none')
+
+  patreon.style.setProperty("--color", '#fdb36a')
+  patreon.style.setProperty("--text-shadow", 'none')
+
+  for(i=0; i< cajaBotonesButton.length;i++){
+    cajaBotonesButton[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(0, 0, 0, 0.5)')
+  }
+  
+  botonPaleta[0].style.setProperty("--bg-color", "#30043d")
+  botonPaleta[1].style.setProperty("--bg-color", "#30043d")
+  botonPaleta[0].style.setProperty("--border-color", "transparent")
+  botonPaleta[1].style.setProperty("--border-color", "transparent")
+
+  botonPaletaI[0].style.setProperty("--color", "#ffffff")
+  botonPaletaI[1].style.setProperty("--color", "#ffffff")
+  //--------------//
+
+  //--------------//
+  }

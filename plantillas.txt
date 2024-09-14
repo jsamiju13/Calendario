@@ -1,11 +1,104 @@
-colores
+<p class="p_desc">
+                                <span class="span_desc">Fecha:      </span> 10/09, <br> 
+                                <span class="span_desc">Evaluación: </span> Trabajo y Explicación, <br> 
+                                <span class="span_desc">Tema:       </span> Sistema de elecciones, <br> 
+                                <span class="span_desc">Grupo:      </span> Individual o Pareja, <br> 
+                                <span class="span_desc">Valor:      </span> 15%-30%, <br> 
+                            </p>
 
-#30043d
+<p class="p_descEx">
+                                <span class="span_desc">Nota:       </span> Hay que hacer un sistema con los candidatos actuales y explicarlo
+                            </p>
 
-#8e1f51
 
-#e54059
+        let backimg= 'linear-gradient(to bottom, #014ba0, #00FFFF)';
+        let title = "#F8F8F8";
+        let diasBack = '#2859ad'
+        let diasBord = '#F8F8F8'
+        let paletaBack = '#2859AD'
+        let h3Color = '#F8F8F8'
+        let h4Color = "#F8F8F8"
+        let h3HoverColor="#00FFFF"
+        let h4HoverColor=""
+        let hRColor = "#28C1C1"
+        let iColor = "#00FFFF"
+        let spanColor = "#00FFFF"
+        let titleSpanColor = "#00FFFF";
+        let buttonBord ='#28C1C1'
+        let paleta9Color = "#F8F8F8"
 
-#de837f
+        //PALETA: SWEET ALERT//
+        titleColor = "#F8F8F8"
+        confirmButton= "#2859ad"
+        cancelButton= "#001759"
+        color_icon = "#00FFFF"
+        color_span = "#001759"
+        color_background = 'linear-gradient(to bottom, #014ba0, #00FFFF)'
 
-#fdb36a
+
+
+        let backimg= 'linear-gradient(to bottom, #000000, #001BFF)';
+        let title = "#F8F8F8";
+        let diasBack = '#1C1C1C'
+        let diasBord = 'transparent'
+        let paletaBack = '#1C1C1C'
+        let h3Color = '#14FF91'
+        let h4Color = "#F8F8F8"
+        let h3HoverColor="#0093FF"
+        let h4HoverColor=""
+        let hRColor = "#0093FF"
+        let iColor = "#14FF91"
+        let spanColor = "#0093FF"
+        let titleSpanColor = "#14FF91";
+        let buttonBord ='#0093FF'
+        let buttonBordHover = "#F8F8F8"
+        let paleta9Color = "#FFFFFF"
+
+        //PALETA: SWEET ALERT//
+        titleColor = "#F8F8F8"
+        confirmButton= "#0093FF"
+        cancelButton= "#1C1C1C"
+        color_icon = "#0093FF"
+        color_span = "#14FF91"
+        color_background = 'linear-gradient(to bottom, #000000, #001BFF)'
+
+
+5px 5px 5px rgba(0, 0, 0, 0.5)
+
+// FONDO //
+
+  //--------------//
+
+  // TITULO //
+
+  //--------------//
+
+  // CAJAS //
+
+  
+
+  // H3 //
+
+  //--------------//
+
+  // HR //
+
+  //--------------//
+
+  // H4 //
+
+  //--------------//
+
+  // SPAN //
+
+  //--------------//
+
+  // BOTONES //
+
+  //--------------//
+
+  // ICONS // 
+
+  //--------------//
+
+  //--------------//

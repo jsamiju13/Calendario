@@ -9,8 +9,8 @@
 }
 
 .caja_dias .dia{
-    background-color: #000000;
-    border-color: #ffffff;
+    background-color: var(--bg-color);
+    border-color: var(--border-color);
     border-radius: 1.8vw;
     border-style: solid;
 
@@ -24,7 +24,7 @@
     align-items: start;
     justify-items: center;
 
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--box-shadow);
     overflow: auto;
 
 }
@@ -48,12 +48,14 @@
     width: min-content;
     padding: 0%;
     border-radius: 3vw;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    
+    box-shadow: var(--box-shadow);
+    background-color: var(--bg-color);
+    border-color: var(--border-color);
 }
 
 .caja_botones i{
-    font-size: 10vw;
+    font-size: 8vw;
+    color: var(--color);
 }
 
 @media screen and (max-width: 499px){
@@ -77,7 +79,7 @@
     }
     
     .caja_botones i{
-        font-size: 10vh;
+        font-size: 8vh;
     }
 }
 

@@ -5,7 +5,7 @@
     height: 100vh;
     grid-template-columns: auto;
     grid-template-rows: 28% 48% auto;
-    background-image: linear-gradient(to bottom, #ffffff, #000000);
+    background-image: var(--bg-image);
     position: absolute;
     top: 0vw;
     left: 0vw;
@@ -15,10 +15,10 @@
 
 button{
     
-    background-color: #ffffff;
+    background-color: var(--bg-color);
     width: 80%;
     cursor: pointer;
-    border-color: #000000;
+    border-color: var(--border-color);
     border-style: solid;
     border-radius: 1.1vw;
 
@@ -37,7 +37,6 @@ button:active{
 
 button h4{
     margin-top: 12%;
-    background-color: none;
 }
 
 #botonSemana{

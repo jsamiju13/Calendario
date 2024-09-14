@@ -1,35 +1,39 @@
 
-var botonOrganizacionMetodos = document.querySelector("#botonOrganizacionMetodos");
-var datosOrganizacionMetodos = document.querySelector(".datosOrganizacionMetodos .p_desc");
-var datosExOrganizacionMetodos = document.querySelector(".datosOrganizacionMetodos .p_descEx");
+var botonMateria1 = document.querySelector("#botonMateria1");
+var datosMateria1 = document.querySelector(".datosMateria1 .p_desc");
+var datosExMateria1 = document.querySelector(".datosMateria1 .p_descEx");
 
-var botonLenguajeProgramacionMartes = document.querySelector("#botonLenguajeProgramacionMartes");
-var datosLenguajeProgramacionMartes = document.querySelector(".datosLenguajeProgramacionMartes .p_desc");
-var datosExLenguajeProgramacionMartes = document.querySelector(".datosLenguajeProgramacionMartes .p_descEx");
+var botonMateria2 = document.querySelector("#botonMateria2");
+var datosMateria2 = document.querySelector(".datosMateria2 .p_desc");
+var datosExMateria2 = document.querySelector(".datosMateria2 .p_descEx");
 
-var botonIngles = document.querySelector("#botonIngles");
-var datosIngles= document.querySelector(".datosIngles .p_desc");
-var datosExIngles = document.querySelector(".datosIngles .p_descEx");
+var botonMateria3 = document.querySelector("#botonMateria3");
+var datosMateria3= document.querySelector(".datosMateria3 .p_desc");
+var datosExMateria3 = document.querySelector(".datosMateria3 .p_descEx");
 
-var botonSistemasInformacion = document.querySelector("#botonSistemasInformacion");
-var datosSistemasInformacion = document.querySelector(".datosSistemasInformacion .p_desc");
-var datosExSistemasInformacion = document.querySelector(".datosSistemasInformacion .p_descEx");
+var botonMateria4 = document.querySelector("#botonMateria4");
+var datosMateria4 = document.querySelector(".datosMateria4 .p_desc");
+var datosExMateria4 = document.querySelector(".datosMateria4 .p_descEx");
 
-var botonActividadesComplementarias = document.querySelector("#botonActividadesComplementarias");
-var datosActividadesComplementarias = document.querySelector(".datosActividadesComplementarias .p_desc");
-var datosExActividadesComplementarias = document.querySelector(".datosActividadesComplementarias .p_descEx");
+var botonMateria5 = document.querySelector("#botonMateria5");
+var datosMateria5 = document.querySelector(".datosMateria5 .p_desc");
+var datosExMateria5 = document.querySelector(".datosMateria5 .p_descEx");
 
-var botonLenguajeProgramacionJueves = document.querySelector("#botonLenguajeProgramacionJueves");
-var datosLenguajeProgramacionJueves = document.querySelector(".datosLenguajeProgramacionJueves .p_desc");
-var datosExLenguajeProgramacionJueves = document.querySelector(".datosLenguajeProgramacionJueves .p_descEx");
+var botonMateria6 = document.querySelector("#botonMateria6");
+var datosMateria6 = document.querySelector(".datosMateria6 .p_desc");
+var datosExMateria6 = document.querySelector(".datosMateria6 .p_descEx");
 
-var botonMatematica = document.querySelector("#botonMatematica");
-var datosMatematica = document.querySelector(".datosMatematica .p_desc");
-var datosExMatematica = document.querySelector(".datosMatematica .p_descEx");
+var botonMateria7 = document.querySelector("#botonMateria7");
+var datosMateria7 = document.querySelector(".datosMateria7 .p_desc");
+var datosExMateria7 = document.querySelector(".datosMateria7 .p_descEx");
 
-var botonEstructuraDatos = document.querySelector("#botonEstructuraDatos");
-var datosEstructuraDatos = document.querySelector(".datosEstructuraDatos .p_desc");
-var datosExEstructuraDatos = document.querySelector(".datosEstructuraDatos .p_descEx");
+var botonMateria8 = document.querySelector("#botonMateria8");
+var datosMateria8 = document.querySelector(".datosMateria8 .p_desc");
+var datosExMateria8 = document.querySelector(".datosMateria8 .p_descEx");
+
+var botonMateria9 = document.querySelector("#botonMateria9");
+var datosMateria9 = document.querySelector(".datosMateria9 .p_desc");
+var datosExMateria9 = document.querySelector(".datosMateria9 .p_descEx");
 
 var correo = document.querySelector(".correo")
 var patreon = document.querySelector(".patreon")
@@ -41,14 +45,12 @@ let titleColor = "#ffffff"
 let confirmButton ="#000000"
 let cancelButton = "#000000"
 let color_icon = "#ffffff"
-let color_span = "#000000"
 let color_background = 'linear-gradient(to bottom, #000000, #ffffff)'
 
 function sweetSimple(datos,dia){
   Swal.fire({
     title: dia,
     confirmButtonColor:confirmButton,
-    color: titleColor,
     iconColor: color_icon,
     background:color_background, 
     html: datos,
@@ -88,44 +90,49 @@ function sweet(datos,dia,datosEx,textoConfirmar){
   });
 };
 
-botonOrganizacionMetodos.addEventListener("click",function(){                                            
+botonMateria1.addEventListener("click",function(){                                            
   boton_click.play();
-  sweet(datosOrganizacionMetodos.innerHTML,"Martes!",datosExOrganizacionMetodos.innerHTML,"Explicame");
+  sweet(datosMateria1.innerHTML,"fecha",datosExMateria1.innerHTML,"Explicame");
 });
 
-botonLenguajeProgramacionMartes.addEventListener("click",function(){
+botonMateria2.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosLenguajeProgramacionMartes.innerHTML,"Martes!",datosExLenguajeProgramacionMartes.innerHTML,"Explicame");
+  sweet(datosMateria2.innerHTML,"Martes!",datosExMateria2.innerHTML,"Explicame");
 });
 
-botonIngles.addEventListener("click",function(){
+botonMateria3.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosIngles.innerHTML,"Miércoles!",datosExIngles.innerHTML,"Explicame");
+  sweet(datosMateria3.innerHTML,"Miércoles!",datosExMateria3.innerHTML,"Explicame");
 });
 
-botonSistemasInformacion.addEventListener("click",function(){
+botonMateria4.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosSistemasInformacion.innerHTML,"Miércoles!",datosExSistemasInformacion.innerHTML,"Explicame");
+  sweet(datosMateria4.innerHTML,"Miércoles!",datosExMateria4.innerHTML,"Explicame");
 });
 
-botonActividadesComplementarias.addEventListener("click",function(){
+botonMateria5.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosActividadesComplementarias.innerHTML,"Miércoles!",datosExActividadesComplementarias.innerHTML,"Explicame");
+  sweet(datosMateria5.innerHTML,"Miércoles!",datosExMateria5.innerHTML,"Explicame");
 });
 
-botonLenguajeProgramacionJueves.addEventListener("click",function(){
+botonMateria6.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosLenguajeProgramacionJueves.innerHTML,"Jueves!",datosExLenguajeProgramacionJueves.innerHTML,"Explicame");
+  sweet(datosMateria6.innerHTML,"Jueves!",datosExMateria6.innerHTML,"Explicame");
 });
 
-botonMatematica.addEventListener("click",function(){
+botonMateria7.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMatematica.innerHTML,"Jueves!",datosExMatematica.innerHTML,"Explicame");
+  sweet(datosMateria7.innerHTML,"Jueves!",datosExMateria7.innerHTML,"Explicame");
 });
 
-botonEstructuraDatos.addEventListener("click",function(){
+botonMateria8.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosEstructuraDatos.innerHTML,"Viérnes!",datosExEstructuraDatos.innerHTML,"Explicame");
+  sweet(datosMateria8.innerHTML,"Viérnes!",datosExMateria8.innerHTML,"Explicame");
+});
+
+botonMateria9.addEventListener("click",function(){
+  boton_click.play();
+  sweet(datosMateria9.innerHTML,"Viérnes!",datosExMateria9.innerHTML,"Explicame");
 });
 
 let paleta_menu_paletas = document.querySelector(".caja_botones")
@@ -135,9 +142,6 @@ let button_paleta_10 = document.querySelector("#paleta10")
 let paleta_active = 1;
 let cont = 0;
 let paleta9Color = "#000000"
-
-paleta_i_paleta9 = document.querySelector(".caja_botones i");
-paleta_i_paleta9.style.color =  paleta9Color;
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -149,19 +153,8 @@ let paletaCont = getRandomInt(1,5);
 
 function cambiarColor(paleta){
 
-  if (paleta==1){
-      constructor_colores()
-  }else{
-    if(paleta==2){
-        constructor_colores2()
-    }else{
-      if(paleta==3){
-          constructor_colores3()
-      }else{
-          constructor_colores4()
-      }
-    }
-  }
+  constructor_colores(paleta)
+
 } 
 
 window.addEventListener("DOMContentLoaded", function(){

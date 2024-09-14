@@ -1,14 +1,18 @@
 
 i{
-  color: #000000;
+  color: var(--color);
+  text-shadow: var(--text-shadow);
   font-size: 3vw;
-  background-color: none;
 }
 
 a{
-  color: #000000;
+  color: var(--color);
+  text-shadow: var(--text-shadow);
   font-size: 2vw;
-  background-color: none;
+}
+
+a.shadow{
+  color: transparent;
 }
 
 @media screen and (max-width: 599px){
