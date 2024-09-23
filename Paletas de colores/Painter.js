@@ -36,7 +36,7 @@ function constructor_colores(paleta){
   //--------------//
 
   // FONDO //
-    general.style.setProperty("--bg-image", 'linear-gradient(to bottom, #00ff77, #e3e3e3)')
+    general.style.setProperty("--bg-image", 'radial-gradient(circle, #e3e3e3, #00ff77)')
   //--------------//
 
   // TITULO //
@@ -163,7 +163,7 @@ function constructor_colores(paleta){
     //--------------//
 
     // FONDO //
-      general.style.setProperty("--bg-image", 'linear-gradient(to bottom, #2E073F, #AD49E1)')
+      general.style.setProperty("--bg-image", 'radial-gradient(circle, #AD49E1, #2E073F)')
     //--------------//
   
     // TITULO //
@@ -292,7 +292,7 @@ function constructor_colores(paleta){
     //--------------//
 
     // FONDO //
-      general.style.setProperty("--bg-image", 'linear-gradient(to bottom, #211951, #15F5BA)')
+      general.style.setProperty("--bg-image", 'radial-gradient(circle, #15F5BA, #211951)')
     //--------------//
   
     // TITULO //
@@ -420,7 +420,7 @@ function constructor_colores(paleta){
     //--------------//
 
     // FONDO //
-      general.style.setProperty("--bg-image", 'linear-gradient(to bottom, #151515, #C73659)')
+      general.style.setProperty("--bg-image", 'radial-gradient(circle, #C73659, #151515)')
     //--------------//
   
     // TITULO //
