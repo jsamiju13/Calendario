@@ -150,6 +150,15 @@ function getRandomInt(min, max) {
 }
 
 let paletaCont = 1
+
+function guardarDatos(){
+  localStorage.setItem("color", paletaCont)
+}
+
+function setearDatos(){
+  paletaCont = Number(localStorage.getItem("color"))
+}
+
 setearDatos()
 
 function cambiarColor(paleta){
@@ -195,10 +204,3 @@ botonTitulo.addEventListener("click", function(){
 });
 
 
-function guardarDatos(){
-  localStorage.setItem("color", paletaCont)
-}
-
-function setearDatos(){
-  paletaCont = Number(localStorage.getItem("color"))
-}
