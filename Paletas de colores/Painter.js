@@ -35,11 +35,11 @@ function constructor_colores(paleta){
 
 
   // SWEET ALERT //
-  titleColor = "#2c9c7b"
-  confirmButton= "#2c9c7b"
+  titleColor = "#FFF8DC"
+  confirmButton= "#DC6B19"
   cancelButton= "#3C3C3C"
-  color_icon = "#3C3C3C"
-  color_background = 'linear-gradient(to bottom, #00ff77, #e3e3e3)'
+  color_icon = "#DC6B19"
+  color_background = 'linear-gradient(to bottom, #6C0345, #F7C566)'
   for(i=0; i< pSpan.length;i++){
     pSpan[i].style.setProperty("--color", "#3C3C3C")
   }
