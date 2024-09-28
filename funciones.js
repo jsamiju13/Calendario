@@ -149,9 +149,12 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
-let paletaCont = getRandomInt(1,5);
+let paletaCont = 1
+setearDatos()
 
 function cambiarColor(paleta){
+
+  setearDatos()
 
   constructor_colores(paleta)
 
@@ -165,11 +168,15 @@ button_paleta_9.addEventListener("click", function(){
 
   boton_click.play();
   
-  if (paletaCont == 4){
+  if (paletaCont == 2){
     paletaCont = 1;
   }else{
     paletaCont +=1;
   }
+
+  console.log(paletaCont)
+
+  guardarDatos()
 
   cambiarColor(paletaCont)
 });
@@ -186,3 +193,12 @@ botonTitulo.addEventListener("click", function(){
     sweetSimple("Felicidades! lo Encontraste","Easter Egg")
   }
 });
+
+
+function guardarDatos(){
+  localStorage.setItem("color", paletaCont)
+}
+
+function setearDatos(){
+  paletaCont = Number(localStorage.getItem("color"))
+}
