@@ -156,7 +156,9 @@ function guardarDatos(){
 }
 
 function setearDatos(){
-  paletaCont = Number(localStorage.getItem("color"))
+  if (localStorage.getItem("color") == "1" | localStorage.getItem("color") == "2"){
+    paletaCont = Number(localStorage.getItem("color"))
+  }
 }
 
 setearDatos()
