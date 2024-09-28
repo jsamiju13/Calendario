@@ -161,60 +161,70 @@ function constructor_colores(paleta){
 
   if (paleta == 2){
 
+  // COLORES //
+  /*
+  #201E43  rgb(32, 30, 67)
+  #134B70  rgb(19, 75, 112)
+  #508C9B  rgb(80, 140, 155)
+  #EEEEEE  rgb(238, 238, 238)
+  */
+  //--------------//
+
+
     // SWEET ALERT //
-    titleColor = "#EBD3F8"
-    confirmButton= "#2E073F"
-    cancelButton= "#7A1CAC"
-    color_icon = "#EBD3F8"
-    color_background = 'linear-gradient(to right, #2E073F 15%, #AD49E1 115%)'
+    titleColor = "#EEEEEE"
+    confirmButton= "#A3FFD6"
+    cancelButton= "#201E43"
+    color_icon = "#A3FFD6"
+    color_background = 'linear-gradient(to bottom, #201E43 15%, #508C9B 115%)'
     for(i=0; i< pSpan.length;i++){
-      pSpan[i].style.setProperty("--color", "#AD49E1")
+      pSpan[i].style.setProperty("--color", "#A3FFD6")
     }
     //--------------//
 
     // FONDO //
-      general.style.setProperty("--bg-image", 'radial-gradient(circle, #AD49E1, #2E073F)')
+      general.style.setProperty("--bg-image", 'linear-gradient(to bottom, #201E43, #508C9B)')
     //--------------//
   
     // TITULO //
-    titulo.style.setProperty("--color", '#EBD3F8')
-    titulo.style.setProperty("--text-shadow", '5px 5px 5px rgba(122, 28, 172, 0.5)')
+    titulo.style.setProperty("--color", '#EEEEEE')
+    titulo.style.setProperty("--text-shadow", '5px 5px 5px rgba(19, 75, 112, 0.5)')
   
     for(i=0; i< tituloSpan.length;i++){
-      tituloSpan[i].style.setProperty("--color", "#AD49E1")
+      tituloSpan[i].style.setProperty("--color", "#A3FFD6")
     }
   
     //--------------//
   
     // CAJAS //
     for(i=0; i< cajaDia.length;i++){
-      cajaDia[i].style.setProperty("--bg-color", '#2E073F')
+      cajaDia[i].style.setProperty("--bg-color", '#201E43')
       cajaDia[i].style.setProperty("--border-color", 'transparent')
-      cajaDia[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(0, 0, 0, 0.5)')
+      cajaDia[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(32, 30, 67, 0.5)')
     }
   
     // H3 //
     for(i=0; i< h3.length;i++){
-      h3[i].style.setProperty("--color", "#AD49E1")
-      h3[i].style.setProperty("--text-shadow", '2px 2px 2px rgba(122, 28, 172, 0.5)')
+      h3[i].style.setProperty("--color", "#A3FFD6")
+      h3[i].style.setProperty("--text-shadow", '2px 2px 2px rgba(80, 140, 155, 0.5)')
     }
     //--------------//
   
     // HR //
     for(i=0; i< hr.length;i++){
-      hr[i].style.setProperty("--border-top-color", "#AD49E1")
-      hr[i].style.setProperty("--border-bottom-color", "#AD49E1")
+      hr[i].style.setProperty("--border-top-color", "#EEEEEE")
+      hr[i].style.setProperty("--border-bottom-color", "#EEEEEE")
     }
     //--------------//
   
     // H4 //
     for(i=0; i< h4.length;i++){
-      h4[i].style.setProperty("--color", "#EBD3F8")
+      h4[i].style.setProperty("--color", "#EEEEEE")
       h4[i].style.setProperty("--text-shadow", '2px 2px 2px rgba(122, 28, 172, 0.5)')
     }
   
     for(i=0; i< spanH4.length;i++){
-      spanH4[i].style.setProperty("--color", "#AD49E1")
+      spanH4[i].style.setProperty("--color", "#A3FFD6")
     }
     //--------------//
   
@@ -226,22 +236,22 @@ function constructor_colores(paleta){
   
     for (let i = 0; i < buttonDias.length; i++) {
       buttonDias[i].style.setProperty("--bg-color", 'transparent')
-      buttonDias[i].style.setProperty("--border-color", '#AD49E1')
+      buttonDias[i].style.setProperty("--border-color", '#A3FFD6')
   
       function handleMouseDown() {
-        buttonDias[i].style.setProperty("--border-color", '#EBD3F8');
+        buttonDias[i].style.setProperty("--border-color", '#EEEEEE');
       }
   
       function handleMouseUp() {
-        buttonDias[i].style.setProperty("--border-color", '#AD49E1');
+        buttonDias[i].style.setProperty("--border-color", '#A3FFD6');
       }
   
       function hover_on() {
-        buttonDiasH4[i].style.setProperty('--color',"#AD49E1")
+        buttonDiasH4[i].style.setProperty('--color',"#A3FFD6")
       }
   
       function hover_off(){
-        buttonDiasH4[i].style.setProperty('--color','#EBD3F8');
+        buttonDiasH4[i].style.setProperty('--color','#EEEEEE');
       }
   
       buttonDias[i].addEventListener("mousedown", handleMouseDown);
@@ -254,12 +264,12 @@ function constructor_colores(paleta){
   
     // ICONS // 
     for(i=0; i< iconI.length;i++){
-      iconI[i].style.setProperty("--color", "#EBD3F8")
+      iconI[i].style.setProperty("--color", "#A3FFD6")
       iconI[i].style.setProperty("--text-shadow", 'none')
     }
   
     for(i=0; i< iconA.length;i++){
-      iconA[i].style.setProperty("--color", "#EBD3F8")
+      iconA[i].style.setProperty("--color", "#A3FFD6")
       iconA[i].style.setProperty("--text-shadow", 'none')
     }
     //--------------//
@@ -267,23 +277,23 @@ function constructor_colores(paleta){
     //--------------//
   
     // EXTRAS //
-    correo.style.setProperty("--color", '#EBD3F8')
+    correo.style.setProperty("--color", '#A3FFD6')
     correo.style.setProperty("--text-shadow", 'none')
   
-    patreon.style.setProperty("--color", '#EBD3F8')
+    patreon.style.setProperty("--color", '#A3FFD6')
     patreon.style.setProperty("--text-shadow", 'none')
     
     for(i=0; i< cajaBotonesButton.length;i++){
       cajaBotonesButton[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(0, 0, 0, 0.5)')
     }
   
-    botonPaleta[0].style.setProperty("--bg-color", "#2E073F")
-    botonPaleta[1].style.setProperty("--bg-color", "#2E073F")
+    botonPaleta[0].style.setProperty("--bg-color", "#201E43")
+    botonPaleta[1].style.setProperty("--bg-color", "#201E43")
     botonPaleta[0].style.setProperty("--border-color", "transparent")
     botonPaleta[1].style.setProperty("--border-color", "transparent")
   
-    botonPaletaI[0].style.setProperty("--color", "#EBD3F8")
-    botonPaletaI[1].style.setProperty("--color", "#EBD3F8")
+    botonPaletaI[0].style.setProperty("--color", "#EEEEEE")
+    botonPaletaI[1].style.setProperty("--color", "#EEEEEE")
     //--------------//
   
   }
