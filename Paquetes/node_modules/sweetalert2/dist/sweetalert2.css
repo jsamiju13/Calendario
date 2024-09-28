@@ -316,7 +316,7 @@ div:where(.swal2-container) button:where(.swal2-styled) {
 div:where(.swal2-container) button:where(.swal2-styled):not([disabled]) {
   cursor: pointer;
 }
-div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
   border: 0;
   border-radius: 0.25em;
   background: initial;
@@ -324,10 +324,10 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   color: #fff;
   font-size: 1em;
 }
-div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus-visible {
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):focus-visible {
   box-shadow: 0 0 0 3px rgba(112, 102, 224, 0.5);
 }
-div:where(.swal2-container) button:where(.swal2-styled).swal2-deny {
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny) {
   border: 0;
   border-radius: 0.25em;
   background: initial;
@@ -335,10 +335,10 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-deny {
   color: #fff;
   font-size: 1em;
 }
-div:where(.swal2-container) button:where(.swal2-styled).swal2-deny:focus-visible {
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):focus-visible {
   box-shadow: 0 0 0 3px rgba(220, 55, 65, 0.5);
 }
-div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel {
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel) {
   border: 0;
   border-radius: 0.25em;
   background: initial;
@@ -346,7 +346,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel {
   color: #fff;
   font-size: 1em;
 }
-div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel:focus-visible {
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):focus-visible {
   box-shadow: 0 0 0 3px rgba(110, 120, 129, 0.5);
 }
 div:where(.swal2-container) button:where(.swal2-styled).swal2-default-outline:focus-visible {
