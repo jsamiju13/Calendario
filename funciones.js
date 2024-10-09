@@ -92,47 +92,47 @@ function sweet(datos,dia,datosEx,textoConfirmar){
 
 botonMateria1.addEventListener("click",function(){                                            
   boton_click.play();
-  sweet(datosMateria1.innerHTML,"fecha",datosExMateria1.innerHTML,"Explicame");
+  sweet(datosMateria1.innerHTML,"Lunes",datosExMateria1.innerHTML,"Explicame");
 });
 
 botonMateria2.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMateria2.innerHTML,"Martes!",datosExMateria2.innerHTML,"Explicame");
+  sweet(datosMateria2.innerHTML,"Lunes",datosExMateria2.innerHTML,"Explicame");
 });
 
 botonMateria3.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMateria3.innerHTML,"Miércoles!",datosExMateria3.innerHTML,"Explicame");
+  sweet(datosMateria3.innerHTML,"Lunes",datosExMateria3.innerHTML,"Explicame");
 });
 
 botonMateria4.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMateria4.innerHTML,"Miércoles!",datosExMateria4.innerHTML,"Explicame");
+  sweet(datosMateria4.innerHTML,"Martes",datosExMateria4.innerHTML,"Explicame");
 });
 
 botonMateria5.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMateria5.innerHTML,"Miércoles!",datosExMateria5.innerHTML,"Explicame");
+  sweet(datosMateria5.innerHTML,"Martes",datosExMateria5.innerHTML,"Explicame");
 });
 
 botonMateria6.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMateria6.innerHTML,"Jueves!",datosExMateria6.innerHTML,"Explicame");
+  sweet(datosMateria6.innerHTML,"Miércoles",datosExMateria6.innerHTML,"Explicame");
 });
 
 botonMateria7.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMateria7.innerHTML,"Jueves!",datosExMateria7.innerHTML,"Explicame");
+  sweet(datosMateria7.innerHTML,"Miércoles",datosExMateria7.innerHTML,"Explicame");
 });
 
 botonMateria8.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMateria8.innerHTML,"Viérnes!",datosExMateria8.innerHTML,"Explicame");
+  sweet(datosMateria8.innerHTML,"Jueves",datosExMateria8.innerHTML,"Explicame");
 });
 
 botonMateria9.addEventListener("click",function(){
   boton_click.play();
-  sweet(datosMateria9.innerHTML,"Viérnes!",datosExMateria9.innerHTML,"Explicame");
+  sweet(datosMateria9.innerHTML,"Jueves",datosExMateria9.innerHTML,"Explicame");
 });
 
 let paleta_menu_paletas = document.querySelector(".caja_botones")
