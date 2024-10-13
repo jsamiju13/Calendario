@@ -146,7 +146,7 @@ function constructor_colores(paleta){
   patreon.style.setProperty("--text-shadow", 'none')
   
   for(i=0; i< cajaBotonesButton.length;i++){
-    cajaBotonesButton[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(226, 187, 233, 0.5)')
+    cajaBotonesButton[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(155, 134, 189, 0.5)')
   }
 
   botonPaleta[0].style.setProperty("--bg-color", "#5A639C")
@@ -285,7 +285,7 @@ function constructor_colores(paleta){
     patreon.style.setProperty("--text-shadow", 'none')
     
     for(i=0; i< cajaBotonesButton.length;i++){
-      cajaBotonesButton[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(0, 0, 0, 0.5)')
+      cajaBotonesButton[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(98, 149, 132, 0.5)')
     }
   
     botonPaleta[0].style.setProperty("--bg-color", "#243642")
