@@ -63,7 +63,7 @@ function constructor_colores(paleta){
   for(i=0; i< cajaDia.length;i++){
     cajaDia[i].style.setProperty("--bg-color", '#5A639C')
     cajaDia[i].style.setProperty("--border-color", 'transparent')
-    cajaDia[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(226, 187, 233, 0.5)')
+    cajaDia[i].style.setProperty("--box-shadow", '10px 10px 10px rgba(155, 134, 189, 0.5)')
   }
 
   // H3 //
